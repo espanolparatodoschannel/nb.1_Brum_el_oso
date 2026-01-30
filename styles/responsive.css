@@ -27,8 +27,8 @@
     }
 
     .logo-img {
-        height: 120px;
-        width: 120px;
+        height: 60px;
+        width: 60px;
     }
 
     .content-grid {
@@ -61,23 +61,14 @@
     }
 
     header {
+        padding: var(--space-3);
+    }
+
+    .header-inner {
         flex-direction: row;
         flex-wrap: wrap;
         gap: var(--space-2);
-        padding: var(--space-3);
         justify-content: flex-start;
-        /* Revert to start */
-        position: sticky;
-        /* Helper reminder */
-        /* Full width sticky adjustments */
-        width: 100%;
-        border-radius: 0;
-        margin: 0;
-        border-right: none;
-        border-left: none;
-        border-top: none;
-        top: 0;
-        /* Ensures it sticks to the very top */
     }
 
     /* Logo - Keep size constrained */
@@ -95,7 +86,7 @@
     }
 
     /* Title - Takes remaining space next to logo */
-    header h1 {
+    .header-inner h1 {
         flex: 1;
         /* Restore flex behavior */
         position: static;

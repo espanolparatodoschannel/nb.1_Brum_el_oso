@@ -29,21 +29,37 @@
         <div class="globe globe-2"></div>
     </div>
 
-    <div class="app-container">
-        <header role="banner" class="glass-panel">
+    <header role="banner" class="glass-panel">
+        <div class="header-inner">
             <a href="https://www.youtube.com/@Espanolparatodos-channel" target="_blank" rel="noopener noreferrer"
                 class="logo-link" aria-label="Visitar canal de YouTube">
                 <img src="./assets/Logo.png?v=20" alt="Logo Español Para Todos" class="logo-img">
             </a>
 
-            <h1 id="main-title" class="fade-in">Cargando historia...</h1>
+            <div class="header-center">
+                <h1 id="main-title" class="fade-in">Cargando historia...</h1>
+                <p class="story-subtitle fade-in">
+                    <a href="https://youtu.be/AbKqW-KMzvQ?si=8PhkddYRhan6VGwO" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="currentColor" class="subtitle-icon">
+                            <path
+                                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                        </svg>
+                        El Mercado de los Recuerdos Olvidados
+                    </a>
+                </p>
+            </div>
             <nav aria-label="Selección de idioma" id="selector-container">
                 <label for="language-selector" class="sr-only">Selecciona un idioma para comparar</label>
                 <select id="language-selector" aria-label="Idioma objetivo">
                     <!-- Dinámico -->
                 </select>
             </nav>
-        </header>
+        </div>
+    </header>
+
+    <div class="app-container">
 
         <main id="main-content" role="main">
             <!-- Loading State -->

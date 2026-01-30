@@ -20,6 +20,8 @@ class App {
         // Inicializar UI Renderer (buscando elementos en el DOM)
         UIRenderer.init();
 
+
+
         // Listeners globales
         this.setupEventListeners();
 

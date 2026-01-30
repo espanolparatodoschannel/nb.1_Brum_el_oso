@@ -298,6 +298,9 @@ export const UIRenderer = {
 
     createInnerAccordionItem(sectionId, esItem, targetItem, index, isBilingual) {
         const itemId = `${sectionId}-item-${index}`;
+        const escapedTermFunc = escapeHTML(esItem.termino).replace(/'/g, "\\'");
+        const escapedDefFunc = escapeHTML(esItem.explicacion).replace(/'/g, "\\'");
+        const escapedExFunc = escapeHTML(esItem.ejemplo).replace(/'/g, "\\'");
 
         return `
             <div class="item-accordion-card">
@@ -308,7 +311,9 @@ export const UIRenderer = {
                         data-accordion-id="${itemId}">
                     
                     <div class="item-titles">
-                         <span class="term-es">${escapeHTML(esItem.termino)}</span>
+                         <div class="term-wrapper">
+                            <span class="term-es">${escapeHTML(esItem.termino)}</span>
+                         </div>
                          ${isBilingual ? `<span class="term-target">${escapeHTML(targetItem.termino)}</span>` : ''}
                     </div>
                     
@@ -321,18 +326,24 @@ export const UIRenderer = {
 
                 <div id="content-${itemId}" class="item-content hidden">
                     <div class="content-block">
-                        <p class="definition-es">${escapeHTML(esItem.explicacion)}</p>
+                        <div class="def-wrapper">
+                            <p class="definition-es">${escapeHTML(esItem.explicacion)}</p>
+                        </div>
                         ${isBilingual ? `<p class="definition-target">${escapeHTML(targetItem.explicacion)}</p>` : ''}
                     </div>
 
                     <div class="example-box">
-                        <p class="example-es">"${escapeHTML(esItem.ejemplo)}"</p>
+                        <div class="ex-wrapper">
+                             <p class="example-es">"${escapeHTML(esItem.ejemplo)}"</p>
+                        </div>
                         ${isBilingual ? `<p class="example-target">"${escapeHTML(targetItem.ejemplo)}"</p>` : ''}
                     </div>
                 </div>
             </div>
         `;
     },
+
+
 
     isStringArray(arr) {
         return Array.isArray(arr) && arr.length > 0 && typeof arr[0] === 'string';
@@ -379,6 +390,8 @@ export const UIRenderer = {
                 Storage.setAccordionState(id, !isExpanded);
             });
         });
+
+
     },
 
     restoreAccordionState() {
