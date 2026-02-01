@@ -125,6 +125,19 @@
         /* Minimized padding */
     }
 
+    /* Ensure text truncates properly on mobile */
+    .story-subtitle a {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .subtitle-text {
+        flex: 1;
+        /* Allow text to shrink/grow */
+        min-width: 0;
+        /* Enable shrinking below content size */
+    }
+
     /* Selector - Full width on new line */
     #selector-container {
         width: 100%;

@@ -164,17 +164,21 @@ h1 {
 }
 
 /* Adaptive Text Sizing */
+/* Adaptive Text Sizing */
 .subtitle-text {
-    white-space: nowrap;
-    /* Force single line */
+    white-space: nowrap !important;
+    /* Strictly force single line */
     overflow: hidden;
     text-overflow: ellipsis;
-    /* Fallback */
-    /* Dynamic font size: Base 1rem, + dynamic viewport wrapping. 
-       Using cqw (Container Query Width) 
-       Logic: If container is small (mobile), font shrinks. 
-       Clamp ensures min 12px (0.75rem) and max 18px (var(--text-lg)) */
-    font-size: clamp(0.75rem, 5cqw, var(--text-lg));
+    max-width: 100%;
+    /* Ensure it respects container width */
+    display: block;
+    /* Required for max-width to work properly in flex child if needed */
+
+    /* Dynamic font size: 
+       Using viewport width (vw) as a robust fallback for mobile.
+       Clamp ensures min 11px (0.7rem) and max 18px (var(--text-lg)) */
+    font-size: clamp(0.7rem, 4vw, var(--text-lg));
 }
 
 .story-subtitle a:hover {
