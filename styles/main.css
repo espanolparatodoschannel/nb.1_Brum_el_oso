@@ -151,8 +151,14 @@ h1 {
 
 .story-subtitle a {
     color: var(--text-secondary);
-    text-decoration: none;
-    transition: color var(--transition-fast);
+    text-decoration: underline;
+    /* Make it obvious it's a link */
+    text-decoration-color: var(--accent-primary);
+    /* Use accent color for underline */
+    text-underline-offset: 4px;
+    /* Space it out nicely */
+    font-weight: 500;
+    transition: all var(--transition-fast);
     display: flex;
     /* Changed from inline-flex to flex for better control */
     align-items: center;
