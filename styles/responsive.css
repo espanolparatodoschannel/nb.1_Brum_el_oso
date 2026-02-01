@@ -73,6 +73,7 @@
         flex: 0 0 auto;
         position: relative;
         z-index: 2;
+        order: 1;
         /* Ensure logo is clickable above title if overlap */
     }
 
@@ -81,6 +82,7 @@
         flex: 1;
         min-width: 0;
         align-items: center;
+        order: 2;
         /* Center align items specifically for mobile */
     }
 
@@ -111,21 +113,28 @@
         pointer-events: auto;
     }
 
+    /* Subtitle above Selector in Mobile */
+    .story-subtitle {
+        order: 3;
+        width: 100%;
+        margin-top: var(--space-1);
+        border-top: none;
+        /* No border in middle of mobile header */
+        background: transparent;
+        padding: var(--space-2) 0;
+        /* Minimized padding */
+    }
+
     /* Selector - Full width on new line */
     #selector-container {
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-top: var(--space-2);
+        margin-top: 0;
         padding-top: var(--space-2);
         border-top: 1px solid rgba(255, 255, 255, 0.05);
+        order: 4;
         /* Subtle separator */
-    }
-
-    /* Adjust subtitle for mobile */
-    .story-subtitle {
-        padding: var(--space-2) var(--space-3);
-        font-size: var(--text-base);
     }
 
     #language-selector {

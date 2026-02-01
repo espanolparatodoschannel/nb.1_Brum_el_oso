@@ -86,6 +86,25 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    flex-wrap: wrap;
+    /* Allow wrapping for layout changes */
+}
+
+/* Default Desktop Order */
+.logo-link {
+    order: 1;
+}
+
+.header-center {
+    order: 2;
+}
+
+#selector-container {
+    order: 3;
+}
+
+.story-subtitle {
+    order: 4;
 }
 
 h1 {
@@ -122,6 +141,8 @@ h1 {
     /* Separator */
     background: rgba(255, 255, 255, 0.02);
     /* Slight background difference */
+    margin-top: var(--space-2);
+    /* Spacing from row above */
 }
 
 .story-subtitle a {
