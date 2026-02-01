@@ -187,9 +187,11 @@ h1 {
 
 /* Ensure icon doesn't shrink or wrap alone */
 .subtitle-icon {
-    width: 20px;
-    height: 20px;
-    color: inherit;
+    width: 24px;
+    /* Increased slightly for visibility */
+    height: 24px;
+    color: #FF0000;
+    /* YouTube Red */
     flex-shrink: 0;
 }
 
