@@ -143,6 +143,10 @@ h1 {
     /* Slight background difference */
     margin-top: var(--space-2);
     /* Spacing from row above */
+
+    /* Enable Container Queries */
+    container-type: inline-size;
+    container-name: subtitle;
 }
 
 .story-subtitle a {
@@ -157,6 +161,20 @@ h1 {
     max-width: 100%;
     /* Ensure it doesn't overflow */
     line-height: 1.3;
+}
+
+/* Adaptive Text Sizing */
+.subtitle-text {
+    white-space: nowrap;
+    /* Force single line */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Fallback */
+    /* Dynamic font size: Base 1rem, + dynamic viewport wrapping. 
+       Using cqw (Container Query Width) 
+       Logic: If container is small (mobile), font shrinks. 
+       Clamp ensures min 12px (0.75rem) and max 18px (var(--text-lg)) */
+    font-size: clamp(0.75rem, 5cqw, var(--text-lg));
 }
 
 .story-subtitle a:hover {
