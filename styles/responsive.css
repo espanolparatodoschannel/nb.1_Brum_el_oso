@@ -122,6 +122,12 @@
         /* Subtle separator */
     }
 
+    /* Adjust subtitle for mobile */
+    .story-subtitle {
+        padding: var(--space-2) var(--space-3);
+        font-size: var(--text-base);
+    }
+
     #language-selector {
         width: 100%;
         /* Make selector full width for easier touch */
