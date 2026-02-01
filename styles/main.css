@@ -72,7 +72,8 @@ header {
     margin: 0;
     padding: var(--space-1) var(--space-6);
     background: var(--glass-bg);
-    border-bottom: 1px solid var(--glass-border);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-lg);
     backdrop-filter: var(--blur-md);
     box-shadow: var(--shadow-lg);
     position: sticky;

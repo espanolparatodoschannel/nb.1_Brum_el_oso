@@ -47,12 +47,9 @@
         --text-base: 0.875rem;
     }
 
-    /* Container adjustments for full-width header */
+    /* Container adjustments: Restore padding for floating header */
     .app-container {
-        padding-top: 0;
-        padding-left: 0;
-        padding-right: 0;
-        /* Keep bottom padding */
+        padding: var(--space-3);
     }
 
     /* Re-add padding to content since container lost it */
