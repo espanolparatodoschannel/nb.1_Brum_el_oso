@@ -117,11 +117,13 @@
     .story-subtitle {
         order: 3;
         width: 100%;
-        margin-top: var(--space-1);
+        margin-top: 0;
+        /* Reduced from space-1 */
         border-top: none;
         /* No border in middle of mobile header */
         background: transparent;
-        padding: var(--space-2) 0;
+        padding: var(--space-1) 0;
+        /* Reduced from space-2 */
         /* Minimized padding */
     }
 
