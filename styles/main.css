@@ -185,6 +185,12 @@ h1 {
     color: var(--accent-primary);
 }
 
+.link-icon {
+    font-size: 1.25em;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
 /* Logo Styles */
 .logo-link {
     display: flex;
