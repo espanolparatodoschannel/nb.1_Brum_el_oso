@@ -76,6 +76,14 @@
         /* Ensure logo is clickable above title if overlap */
     }
 
+    /* Header Center - Takes remaining space and allows wrapping */
+    .header-center {
+        flex: 1;
+        min-width: 0;
+        align-items: center;
+        /* Center align items specifically for mobile */
+    }
+
     .logo-img {
         height: 65px;
         /* Increased from 50px */
@@ -84,12 +92,11 @@
 
     /* Title - Takes remaining space next to logo */
     .header-inner h1 {
-        flex: 1;
-        /* Restore flex behavior */
+        /* Remove flex: 1 since parent handles it */
         position: static;
         /* Reset absolute */
         text-align: center;
-        margin: 0 0 0 var(--space-2);
+        margin: 0;
 
         /* Increase Font Size Further */
         font-size: 1.5rem;
