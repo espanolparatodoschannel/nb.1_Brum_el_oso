@@ -600,14 +600,9 @@ h1 {
 /* Audio Buttons & Wrappers */
 .term-wrapper {
     display: inline-flex !important;
-    /* Changed to inline-flex to shrink wrap tightly */
-    flex-direction: row !important;
+    vertical-align: middle !important;
     align-items: center !important;
-    justify-content: flex-start !important;
-    flex-wrap: nowrap !important;
     gap: var(--space-2);
-    width: auto !important;
-    max-width: 100%;
 }
 
 .term-wrapper .term-es {

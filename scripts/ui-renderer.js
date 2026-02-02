@@ -368,7 +368,7 @@ export const UIRenderer = {
                         data-accordion-id="${itemId}">
                     
                     <div class="item-titles">
-                          <div class="term-wrapper">
+                          <span class="term-wrapper"> <!-- Changed to span for better inline behavior -->
                              <span class="term-es">${escapeHTML(esItem.termino)}</span>
                              ${esItem.termino === 'Cuando' ? `
                                 <button type="button" class="audio-btn" aria-label="Escuchar pronunciación" onclick="window.playAudioTerm(event, '${escapedTermFunc}')">
@@ -378,7 +378,7 @@ export const UIRenderer = {
                                     </svg>
                                 </button>
                              ` : ''}
-                          </div>
+                          </span>
                           ${isBilingual ? `<span class="term-target">${escapeHTML(targetItem.termino)}</span>` : ''}
                     </div>
                     
