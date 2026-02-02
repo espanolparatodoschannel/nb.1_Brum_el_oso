@@ -598,7 +598,13 @@ h1 {
 /* Audio Buttons & Wrappers */
 /* Audio Buttons & Wrappers */
 /* Audio Buttons & Wrappers */
-.term-wrapper,
+.term-wrapper {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    width: 100%;
+}
+
 .def-wrapper,
 .ex-wrapper {
     display: grid;
@@ -622,17 +628,17 @@ h1 {
     padding: 0;
     margin: 0;
     cursor: pointer;
-    color: var(--text-muted);
-    opacity: 0.7;
+    color: var(--accent-primary);
+    /* Changed to accent color for visibility */
+    opacity: 0.8;
     transition: all var(--transition-fast);
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
     /* Prevent icon from squishing */
-    margin-top: 4px;
-    align-self: start;
-    /* Ensure it stays at top */
+    margin-left: var(--space-2);
+    /* Slight space from text */
 }
 
 .audio-btn:hover {

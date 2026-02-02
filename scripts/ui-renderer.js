@@ -3,6 +3,56 @@ import { escapeHTML, delay } from './utils.js';
 import { Storage } from './storage.js';
 
 export const UIRenderer = {
+    // Helper para reproducir audio con Web Speech API
+    playAudio(text) {
+        if (!window.speechSynthesis) {
+            console.error("Web Speech API no soportada en este navegador.");
+            return;
+        }
+
+        // Cancelar cualquier audio previo
+        window.speechSynthesis.cancel();
+
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.rate = 0.9; // Un poco más lento para claridad educativa
+
+        // Selección Inteligente de Voz
+        const voices = window.speechSynthesis.getVoices();
+
+        // 1. Prioridad: Español Latinoamericano (Google, Microsoft)
+        let selectedVoice = voices.find(voice =>
+            (voice.lang === 'es-419' || voice.lang === 'es-MX') &&
+            (voice.name.includes('Google') || voice.name.includes('Microsoft'))
+        );
+
+        // 2. Fallback: Cualquier Español Latinoamericano
+        if (!selectedVoice) {
+            selectedVoice = voices.find(voice => voice.lang === 'es-419' || voice.lang === 'es-MX');
+        }
+
+        // 3. Fallback: Cualquier voz en Español (es-ES, etc.) mejorada
+        if (!selectedVoice) {
+            selectedVoice = voices.find(voice =>
+                voice.lang.startsWith('es') &&
+                (voice.name.includes('Google') || voice.name.includes('Microsoft'))
+            );
+        }
+
+        // 4. Fallback Final: Cualquier voz que empiece por 'es'
+        if (!selectedVoice) {
+            selectedVoice = voices.find(voice => voice.lang.startsWith('es'));
+        }
+
+        if (selectedVoice) {
+            utterance.voice = selectedVoice;
+            console.log(`Reproduciendo con voz: ${selectedVoice.name} (${selectedVoice.lang})`);
+        } else {
+            console.warn("No se encontró ninguna voz en español. Usando predeterminada del sistema.");
+        }
+
+        window.speechSynthesis.speak(utterance);
+    },
+
     // ... (rest of the file until createSection)
 
     createSection(key, esData, targetData, index, isBilingual, langCode) {
@@ -115,6 +165,12 @@ export const UIRenderer = {
     elements: {},
 
     init() {
+        // Exponer función globalmente para el onclick inline (necesario por ser módulo)
+        window.playAudioTerm = (event, text) => {
+            event.stopPropagation(); // Evitar que se abra/cierre el acordeón
+            this.playAudio(text);
+        };
+
         this.elements = {
             title: document.querySelector(CONFIG.SELECTORS.MAIN_TITLE),
             content: document.querySelector(CONFIG.SELECTORS.CONTENT_CONTAINER),
@@ -311,10 +367,18 @@ export const UIRenderer = {
                         data-accordion-id="${itemId}">
                     
                     <div class="item-titles">
-                         <div class="term-wrapper">
-                            <span class="term-es">${escapeHTML(esItem.termino)}</span>
-                         </div>
-                         ${isBilingual ? `<span class="term-target">${escapeHTML(targetItem.termino)}</span>` : ''}
+                          <div class="term-wrapper">
+                             <span class="term-es">${escapeHTML(esItem.termino)}</span>
+                             ${esItem.termino === 'Cuando' ? `
+                                <button type="button" class="audio-btn" aria-label="Escuchar pronunciación" onclick="window.playAudioTerm(event, '${escapedTermFunc}')">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                        <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                                    </svg>
+                                </button>
+                             ` : ''}
+                          </div>
+                          ${isBilingual ? `<span class="term-target">${escapeHTML(targetItem.termino)}</span>` : ''}
                     </div>
                     
                     <span class="accordion-icon inner-icon">
