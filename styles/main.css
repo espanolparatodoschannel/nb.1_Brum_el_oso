@@ -405,13 +405,16 @@ h1 {
     /* Space before chevron */
 }
 
+.term-es-wrapper {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 6px;
+}
+
 .term-es {
     font-size: var(--text-base);
     font-weight: 600;
     color: var(--text-primary);
-    display: inline !important;
-    /* Override parent flex-direction: column */
-    width: auto !important;
 }
 
 .term-target {
@@ -637,17 +640,16 @@ h1 {
     background: none;
     border: none;
     padding: 0;
-    margin: 0 0 0 6px;
-    /* Small left margin */
+    margin: 0;
     cursor: pointer;
     color: var(--accent-primary);
-    /* Reverted to accent color */
     opacity: 0.8;
     transition: all var(--transition-fast);
-    display: inline-block;
-    vertical-align: text-bottom;
-    /* Align with text baseline */
-    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    /* Prevent squishing */
 }
 
 .audio-btn:hover {

@@ -368,8 +368,18 @@ export const UIRenderer = {
                         data-accordion-id="${itemId}">
                     
                     <div class="item-titles">
-                             <span class="term-es">${escapeHTML(esItem.termino)}${esItem.termino === 'Cuando' ? `<button type="button" class="audio-btn" aria-label="Escuchar pronunciación" onclick="window.playAudioTerm(event, '${escapedTermFunc}')"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg></button>` : ''}</span>
-                          ${isBilingual ? `<span class="term-target">${escapeHTML(targetItem.termino)}</span>` : ''}
+                        ${esItem.termino === 'Cuando' ? `
+                            <span class="term-es-wrapper">
+                                <span class="term-es">${escapeHTML(esItem.termino)}</span>
+                                <button type="button" class="audio-btn" aria-label="Escuchar pronunciación" onclick="window.playAudioTerm(event, '${escapedTermFunc}')">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                        <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                                    </svg>
+                                </button>
+                            </span>
+                        ` : `<span class="term-es">${escapeHTML(esItem.termino)}</span>`}
+                        ${isBilingual ? `<span class="term-target">${escapeHTML(targetItem.termino)}</span>` : ''}
                     </div>
                     
                     <span class="accordion-icon inner-icon">
