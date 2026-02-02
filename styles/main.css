@@ -650,14 +650,6 @@ h1 {
     line-height: 1;
 }
 
-align-items: center;
-justify-content: center;
-flex-shrink: 0;
-/* Prevent icon from squishing */
-margin-left: var(--space-2);
-/* Slight space from text */
-}
-
 .audio-btn:hover {
     color: var(--accent-secondary);
     opacity: 1;
