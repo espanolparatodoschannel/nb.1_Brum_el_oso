@@ -409,6 +409,9 @@ h1 {
     font-size: var(--text-base);
     font-weight: 600;
     color: var(--text-primary);
+    display: inline !important;
+    /* Override parent flex-direction: column */
+    width: auto !important;
 }
 
 .term-target {
