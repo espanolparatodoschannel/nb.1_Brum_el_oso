@@ -634,13 +634,15 @@ h1 {
     background: none;
     border: none;
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 6px;
+    /* Small left margin */
     cursor: pointer;
     color: var(--accent-primary);
     /* Reverted to accent color */
     opacity: 0.8;
     transition: all var(--transition-fast);
-    display: inline-flex;
+    display: inline-block;
+    vertical-align: middle;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
