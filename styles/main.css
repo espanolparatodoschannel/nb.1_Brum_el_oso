@@ -599,10 +599,20 @@ h1 {
 /* Audio Buttons & Wrappers */
 /* Audio Buttons & Wrappers */
 .term-wrapper {
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
     gap: var(--space-2);
-    width: 100%;
+    width: auto !important;
+    /* Allow it to fit content, prevent full width forcing weirdness */
+    max-width: 100%;
+}
+
+.term-wrapper .term-es {
+    flex: 0 1 auto;
+    /* Allow shrinking if needed, but grow mostly */
+    width: auto;
 }
 
 .def-wrapper,
