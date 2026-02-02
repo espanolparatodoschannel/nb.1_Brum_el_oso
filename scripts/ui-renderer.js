@@ -165,6 +165,7 @@ export const UIRenderer = {
     elements: {},
 
     init() {
+        console.log("APP VERSION: 42 - Audio Fix Loaded"); // Debug Tracer
         // Exponer función globalmente para el onclick inline (necesario por ser módulo)
         window.playAudioTerm = (event, text) => {
             event.stopPropagation(); // Evitar que se abra/cierre el acordeón
