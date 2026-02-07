@@ -1,4 +1,4 @@
-import { CONFIG, UI_LABELS, SECTION_LABELS, SECTION_ICONS } from './config.js';
+import { CONFIG, UI_LABELS, SECTION_LABELS, SECTION_ICONS, AUDIO_TOOLTIPS } from './config.js';
 import { escapeHTML, delay } from './utils.js';
 import { Storage } from './storage.js';
 
@@ -20,29 +20,18 @@ export const UIRenderer = {
         // Icono de la sección: Lógica robusta con Fallback
         const normalizedKey = key.trim();
 
-        // 1. Iconos Hardcoded (Prioridad Máxima) - Con estilos inline forzados
-        const style = 'style="min-width: 24px; min-height: 24px; display: block;"';
-        const LOCAL_ICONS = {
-            conectores_logicos: `<svg ${style} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>`,
-            verbos_y_adjetivos: `<svg ${style} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>`,
-            sustantivos_clave: `<svg ${style} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>`,
-            expresiones_idiomaticas: `<svg ${style} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>`,
-            funciones_comunicativas: `<svg ${style} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>`,
-            palabras_clave: `<svg ${style} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>`
-        };
+        // 1. Buscar icono en SECTION_ICONS importado de config.js
+        let iconSVG = SECTION_ICONS[normalizedKey];
 
-        // 2. Busqueda
-        let iconSVG = LOCAL_ICONS[normalizedKey];
-
-        // 3. Fallback: Buscar coincidencia parcial si no es exacto
+        // 2. Fallback: Buscar coincidencia parcial si no es exacto
         if (!iconSVG) {
-            const fuzzyKey = Object.keys(LOCAL_ICONS).find(k => k.includes(normalizedKey) || normalizedKey.includes(k));
-            if (fuzzyKey) iconSVG = LOCAL_ICONS[fuzzyKey];
+            const fuzzyKey = Object.keys(SECTION_ICONS).find(k => k.includes(normalizedKey) || normalizedKey.includes(k));
+            if (fuzzyKey) iconSVG = SECTION_ICONS[fuzzyKey];
         }
 
-        // 4. Fallback Final: Icono genérico (Círculo Plus)
+        // 3. Fallback Final: Icono genérico (Círculo Plus)
         if (!iconSVG) {
-            console.error(`Missing icon for key: "${normalizedKey}"`);
+            console.warn(`Missing icon for key: "${normalizedKey}"`);
             iconSVG = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>';
         }
 
@@ -53,7 +42,48 @@ export const UIRenderer = {
         // Contenido interno (depende de si es array de strings u objetos)
         let innerContent = '';
 
-        if (this.isStringArray(esData)) {
+        if (typeof esData === 'string') {
+            // Caso: Campo de texto simple (como narrativa)
+            const targetText = (typeof targetData === 'string') ? targetData : esData;
+
+            // Agregar controles de audio si es la sección de narrativa
+            const audioControls = key === 'narrativa' ? `
+                <div class="narrative-audio-controls">
+                    <audio id="narrative-audio" src="./assets/narrativa_web.mp3" preload="metadata"></audio>
+                    <div class="audio-player">
+                        <button class="audio-control-btn play-pause-btn" onclick="toggleNarrativeAudio()" aria-label="Reproducir">
+                            <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                            </svg>
+                            <svg class="pause-icon hidden" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="6" y="4" width="4" height="16"></rect>
+                                <rect x="14" y="4" width="4" height="16"></rect>
+                            </svg>
+                        </button>
+                        <button class="audio-control-btn restart-btn" onclick="restartNarrativeAudio()" aria-label="Reiniciar">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="1 4 1 10 7 10"></polyline>
+                                <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+                            </svg>
+                        </button>
+                        <div class="audio-progress-container">
+                            <span class="audio-time current-time">0:00</span>
+                            <input type="range" class="audio-progress" min="0" max="100" value="0" step="0.1" oninput="seekNarrativeAudio(this.value)">
+                            <span class="audio-time total-time">0:00</span>
+                        </div>
+                    </div>
+                </div>
+            ` : '';
+            innerContent = `
+                ${audioControls}
+                <div class="narrative-container">
+                    <div class="narrative-text">
+                        <p class="narrative-es">${escapeHTML(esData).replace(/\n/g, '<br>')}</p>
+                        ${isBilingual && targetText !== esData ? `<p class="narrative-target">${escapeHTML(targetText).replace(/\n/g, '<br>')}</p>` : ''}
+                    </div>
+                </div>
+            `;
+        } else if (this.isStringArray(esData)) {
             innerContent = `
                 <div class="keywords-container">
                     ${esData.map((word, i) => {
@@ -86,9 +116,8 @@ export const UIRenderer = {
                         data-accordion-id="${sectionId}">
                     
                     <div class="section-header-left">
-                        ${iconSVG ? `<div class="section-category-icon">${iconSVG}</div>` : ''}
                         <div class="section-titles">
-                            <h2 class="section-title-es">${esLabel}</h2>
+                            <h2 class="section-title-es">${iconSVG ? `<span class="section-category-icon">${iconSVG}</span>` : ''}${esLabel}</h2>
                             ${isBilingual && targetLabel ? `<span class="section-title-target">${targetLabel}</span>` : ''}
                         </div>
                     </div>
@@ -237,6 +266,24 @@ export const UIRenderer = {
             targetLabel = labels ? (labels[key] || '') : '';
         }
 
+        // Icono de la sección: Lógica robusta con Fallback
+        const normalizedKey = key.trim();
+
+        // 1. Buscar icono en SECTION_ICONS importado de config.js
+        let iconSVG = SECTION_ICONS[normalizedKey];
+
+        // 2. Fallback: Buscar coincidencia parcial si no es exacto
+        if (!iconSVG) {
+            const fuzzyKey = Object.keys(SECTION_ICONS).find(k => k.includes(normalizedKey) || normalizedKey.includes(k));
+            if (fuzzyKey) iconSVG = SECTION_ICONS[fuzzyKey];
+        }
+
+        // 3. Fallback Final: Icono genérico (Círculo Plus)
+        if (!iconSVG) {
+            console.warn(`Missing icon for key: "${normalizedKey}"`);
+            iconSVG = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>';
+        }
+
         const sectionEl = document.createElement('section');
         sectionEl.className = 'analysis-section fade-in';
         sectionEl.style.animationDelay = `${index * 100}ms`;
@@ -244,15 +291,64 @@ export const UIRenderer = {
         // Contenido interno (depende de si es array de strings u objetos)
         let innerContent = '';
 
-        if (this.isStringArray(esData)) {
+        if (typeof esData === 'string') {
+            // Caso: Campo de texto simple (como narrativa)
+            const targetText = (typeof targetData === 'string') ? targetData : esData;
+
+            // Agregar controles de audio si es la sección de narrativa
+            const audioControls = key === 'narrativa' ? `
+                <div class="narrative-audio-controls">
+                    <audio id="narrative-audio" src="./assets/narrativa_web.mp3" preload="metadata"></audio>
+                    <div class="audio-player">
+                        <button class="audio-control-btn play-pause-btn" onclick="toggleNarrativeAudio()" aria-label="Reproducir">
+                            <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                            </svg>
+                            <svg class="pause-icon hidden" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="6" y="4" width="4" height="16"></rect>
+                                <rect x="14" y="4" width="4" height="16"></rect>
+                            </svg>
+                        </button>
+                        <button class="audio-control-btn restart-btn" onclick="restartNarrativeAudio()" aria-label="Reiniciar">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="1 4 1 10 7 10"></polyline>
+                                <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+                            </svg>
+                        </button>
+                        <div class="audio-progress-container">
+                            <span class="audio-time current-time">0:00</span>
+                            <input type="range" class="audio-progress" min="0" max="100" value="0" step="0.1" oninput="seekNarrativeAudio(this.value)">
+                            <span class="audio-time total-time">0:00</span>
+                        </div>
+                    </div>
+                </div>
+            ` : '';
+            innerContent = `
+                ${audioControls}
+                <div class="narrative-container">
+                    <div class="narrative-text">
+                        <p class="narrative-es">${escapeHTML(esData).replace(/\n/g, '<br>')}</p>
+                        ${isBilingual && targetText !== esData ? `<p class="narrative-target">${escapeHTML(targetText).replace(/\n/g, '<br>')}</p>` : ''}
+                    </div>
+                </div>
+            `;
+        } else if (this.isStringArray(esData)) {
+            const tooltip = AUDIO_TOOLTIPS[langCode] || AUDIO_TOOLTIPS['es'];
             innerContent = `
                 <div class="keywords-container">
                     ${esData.map((word, i) => {
                 const targetWord = targetData[i] || word;
-                return `<span class="keyword-chip">
+                const escapedWord = escapeHTML(word).replace(/'/g, "\\'");
+                return `<div class="keyword-chip audio-enabled" onclick="speakText('${escapedWord}', 'es')" title="${tooltip}" style="cursor: pointer;">
                             <span class="es-word">${escapeHTML(word)}</span>
                             ${isBilingual ? `<span class="target-word">(${escapeHTML(targetWord)})</span>` : ''}
-                        </span>`;
+                            <span class="audio-indicator-icon" aria-hidden="true" style="margin-left: 0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                                </svg>
+                            </span>
+                        </div>`;
             }).join('')}
                 </div>
             `;
@@ -261,7 +357,7 @@ export const UIRenderer = {
                 <div class="items-list-accordion">
                     ${esData.map((item, i) => {
                 const targetItem = targetData[i] || item;
-                return this.createInnerAccordionItem(sectionId, item, targetItem, i, isBilingual);
+                return this.createInnerAccordionItem(sectionId, item, targetItem, i, isBilingual, langCode);
             }).join('')}
                 </div>
             `;
@@ -275,10 +371,14 @@ export const UIRenderer = {
                         aria-expanded="false" 
                         aria-controls="content-${sectionId}" 
                         data-accordion-id="${sectionId}">
-                    <div class="section-titles">
-                        <h2 class="section-title-es">${esLabel}</h2>
-                        ${isBilingual && targetLabel ? `<span class="section-title-target">${targetLabel}</span>` : ''}
+                    
+                    <div class="section-header-left">
+                        <div class="section-titles">
+                            <h2 class="section-title-es">${iconSVG ? `<span class="section-category-icon">${iconSVG}</span>` : ''}${esLabel}</h2>
+                            ${isBilingual && targetLabel ? `<span class="section-title-target">${targetLabel}</span>` : ''}
+                        </div>
                     </div>
+
                     <span class="accordion-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <polyline points="6 9 12 15 18 9"></polyline>
@@ -296,11 +396,18 @@ export const UIRenderer = {
         return sectionEl;
     },
 
-    createInnerAccordionItem(sectionId, esItem, targetItem, index, isBilingual) {
+    createInnerAccordionItem(sectionId, esItem, targetItem, index, isBilingual, langCode = 'es') {
         const itemId = `${sectionId}-item-${index}`;
-        const escapedTermFunc = escapeHTML(esItem.termino).replace(/'/g, "\\'");
-        const escapedDefFunc = escapeHTML(esItem.explicacion).replace(/'/g, "\\'");
-        const escapedExFunc = escapeHTML(esItem.ejemplo).replace(/'/g, "\\'");
+
+        const escapedTerm = escapeHTML(esItem.termino).replace(/'/g, "\\'");
+        const tooltip = AUDIO_TOOLTIPS[langCode] || AUDIO_TOOLTIPS['es'];
+
+        // Deshabilitar audio para la sección "Funciones comunicativas"
+        const isAudioDisabled = sectionId.includes('funciones_comunicativas');
+        const audioAttr = isAudioDisabled ?
+            'class="term-es"' :
+            `class="term-es audio-enabled" onclick="event.stopPropagation(); speakText('${escapedTerm}', 'es')" title="${tooltip}"`;
+
 
         return `
             <div class="item-accordion-card">
@@ -311,8 +418,19 @@ export const UIRenderer = {
                         data-accordion-id="${itemId}">
                     
                     <div class="item-titles">
-                        <span class="term-es">${escapeHTML(esItem.termino)}</span>
-                        ${isBilingual ? `<span class="term-target">${escapeHTML(targetItem.termino)}</span>` : ''}
+                         <div class="term-wrapper">
+                            <span ${audioAttr}>
+                                ${escapeHTML(esItem.termino)}
+                                ${!isAudioDisabled ? `
+                                <span class="audio-indicator-icon" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                        <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                                    </svg>
+                                </span>` : ''}
+                            </span>
+                         </div>
+                         ${isBilingual ? `<span class="term-target">${escapeHTML(targetItem.termino)}</span>` : ''}
                     </div>
                     
                     <span class="accordion-icon inner-icon">
@@ -323,18 +441,20 @@ export const UIRenderer = {
                 </button>
 
                 <div id="content-${itemId}" class="item-content hidden">
-                    <div class="content-block">
-                        <div class="def-wrapper">
-                            <p class="definition-es">${escapeHTML(esItem.explicacion)}</p>
+                    <div class="item-body">
+                         <div class="content-block">
+                            <div class="def-wrapper">
+                                <p class="definition-es">${escapeHTML(esItem.explicacion)}</p>
+                            </div>
+                            ${isBilingual ? `<p class="definition-target">${escapeHTML(targetItem.explicacion)}</p>` : ''}
                         </div>
-                        ${isBilingual ? `<p class="definition-target">${escapeHTML(targetItem.explicacion)}</p>` : ''}
-                    </div>
 
-                    <div class="example-box">
-                        <div class="ex-wrapper">
-                             <p class="example-es">"${escapeHTML(esItem.ejemplo)}"</p>
+                        <div class="example-box">
+                            <div class="ex-wrapper">
+                                 <p class="example-es">"${escapeHTML(esItem.ejemplo)}"</p>
+                            </div>
+                            ${isBilingual ? `<p class="example-target">"${escapeHTML(targetItem.ejemplo)}"</p>` : ''}
                         </div>
-                        ${isBilingual ? `<p class="example-target">"${escapeHTML(targetItem.ejemplo)}"</p>` : ''}
                     </div>
                 </div>
             </div>

@@ -49,12 +49,15 @@ Crea un archivo JSON para cada idioma en la carpeta `data/` (ej: `fr.json`, `de.
 
 **Campos Requeridos:**
 *   `meta`: Información sobre la historia.
+*   `titulo`: Título de la historia.
 *   `conectores_logicos`: Array de objetos.
-*   `verbos_y_adjetivos`: Array de objetos.
+*   `verbos`: Array de objetos.
+*   `adjetivos`: Array de objetos.
 *   `sustantivos_clave`: Array de objetos.
 *   `expresiones_idiomaticas`: Array de objetos.
 *   `funciones_comunicativas`: Array de objetos.
 *   `palabras_clave`: Array de strings.
+*   `narrativa`: String con el texto completo de la historia.
 
 ### 3. Ejecutar
 Dado que usa `fetch` para cargar archivos JSON, necesitas un servidor local para evitar errores de CORS (Cross-Origin Resource Sharing) si usas navegadores modernos estrictos.

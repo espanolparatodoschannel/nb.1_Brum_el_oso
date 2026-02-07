@@ -2,149 +2,197 @@
   "meta": {
     "titulo_historia": "Linguistic Analysis",
     "autor": "Usuario",
-    "fecha": "2026-01-29"
+    "fecha": "2026-02-07"
   },
   "titulo": "Linguistic Analysis",
   "conectores_logicos": [
     {
       "termino": "When",
-      "explicacion": "Temporal connector that introduces an action or situation occurring at a specific time.",
-      "ejemplo": "\"When autumn turned cold, Mama Bear prepared the den.\""
+      "explicacion": "Temporal connector that introduces a specific situation or moment.",
+      "ejemplo": "When autumn turned cold, Mama Bear prepared the den."
     },
     {
       "termino": "But",
-      "explicacion": "Contrast or opposition connector that introduces an idea that contradicts or limits what was previously said.",
+      "explicacion": "Contrast connector that introduces an objection or opposing idea.",
       "ejemplo": "\"But, Mama! If I sleep, I'll miss the last snowflakes!\""
     },
     {
       "termino": "While",
-      "explicacion": "Temporal connector indicating that two actions occur at the same time.",
-      "ejemplo": "\"While you sleep, your body will grow strong.\""
+      "explicacion": "Temporal connector that indicates the simultaneity of two actions.",
+      "ejemplo": "While you sleep, your body will grow strong."
     },
     {
       "termino": "Then",
-      "explicacion": "Temporal connector indicating later time or sequence of actions.",
-      "ejemplo": "\"Brum kept walking. Then he met a little Rabbit.\""
+      "explicacion": "Temporal connector that indicates posteriority in a sequence of events.",
+      "ejemplo": "Brum kept walking. Then he met a little Rabbit."
     },
     {
       "termino": "Finally",
-      "explicacion": "Connector marking the last step or conclusion of a sequence of events.",
-      "ejemplo": "\"Finally, one morning he felt a tickle.\""
+      "explicacion": "Connector that marks the last event or the conclusion of a sequence.",
+      "ejemplo": "Finally, one morning he felt a tickle."
     },
     {
       "termino": "And so",
-      "explicacion": "Conclusive connector that summarizes or presents the consequence of what was narrated.",
-      "ejemplo": "\"And so, Brum the bear cub became the champion of naps.\""
+      "explicacion": "Conclusive connector that summarizes or presents the consequence of what came before.",
+      "ejemplo": "And so, Brum the bear cub became the champion of naps."
     }
   ],
-  "verbos_y_adjetivos": [
+  "verbos": [
     {
-      "termino": "explore (verb)",
-      "explicacion": "Verb meaning to travel through a place to discover or get to know it.",
-      "ejemplo": "\"Brum loved to explore.\""
+      "termino": "loved",
+      "explicacion": "Verb that expresses a very strong liking or fondness (from the verb 'to love').",
+      "ejemplo": "Brum loved to explore, jump on the moss, and count the stars."
     },
     {
-      "termino": "vibrant (adjective)",
-      "explicacion": "Adjective describing something full of energy, color, or life.",
-      "ejemplo": "\"in a forest of vibrant colors\""
+      "termino": "prepared",
+      "explicacion": "Verb that indicates an action of organizing or arranging something for a purpose.",
+      "ejemplo": "Mama Bear prepared the den for the winter nap."
     },
     {
-      "termino": "exhausted (adjective)",
-      "explicacion": "Adjective describing a state of extreme tiredness.",
-      "ejemplo": "\"Brum sat down, exhausted.\""
+      "termino": "wrinkled",
+      "explicacion": "Verb that describes the gesture of wrinkling or contracting something, like the nose.",
+      "ejemplo": "Brum wrinkled his nose."
     },
     {
-      "termino": "snuggled (verb)",
-      "explicacion": "Verb meaning to get into a comfortable, curled-up position, usually to sleep or rest.",
-      "ejemplo": "\"He snuggled up next to Mama Bear.\""
+      "termino": "sneaked out",
+      "explicacion": "Pronominal verb meaning to leave or go from a place without permission or secretly.",
+      "ejemplo": "That night, while his mother snored, he sneaked out."
     },
     {
-      "termino": "wonderful (adjective)",
-      "explicacion": "Adjective describing something extraordinarily good or that causes admiration.",
-      "ejemplo": "\"he had wonderful dreams\""
+      "termino": "realized",
+      "explicacion": "Verbal expression meaning to understand or become aware of something.",
+      "ejemplo": "He realized that his adventure wasn't fun if he was tired."
+    },
+    {
+      "termino": "became",
+      "explicacion": "Pronominal verb that indicates a change or transformation in something or someone.",
+      "ejemplo": "Brum the bear cub became the champion of naps."
+    }
+  ],
+  "adjetivos": [
+    {
+      "termino": "vibrant",
+      "explicacion": "Adjective that describes something full of life, energy, or intense color.",
+      "ejemplo": "In a forest of vibrant colors."
+    },
+    {
+      "termino": "little",
+      "explicacion": "Adjective that indicates small size or young age.",
+      "ejemplo": "A little bear cub named Brum."
+    },
+    {
+      "termino": "exhausted",
+      "explicacion": "Adjective that describes a state of extreme tiredness.",
+      "ejemplo": "Brum sat down, exhausted."
+    },
+    {
+      "termino": "wonderful",
+      "explicacion": "Adjective that qualifies something as extraordinary, admirable, or causing awe.",
+      "ejemplo": "He had wonderful dreams."
+    },
+    {
+      "termino": "fresh",
+      "explicacion": "Adjective that describes something pleasantly cold, new, or pure.",
+      "ejemplo": "The world was green and fresh."
+    },
+    {
+      "termino": "magical",
+      "explicacion": "Adjective that refers to something related to magic, or that is extraordinary and enchanting.",
+      "ejemplo": "It's a magical wait."
     }
   ],
   "sustantivos_clave": [
     {
+      "termino": "bear cub",
+      "explicacion": "Noun meaning 'young bear' or 'bear cub'.",
+      "ejemplo": "A little bear cub named Brum."
+    },
+    {
       "termino": "hibernation",
-      "explicacion": "State of deep lethargy in which some animals spend the winter.",
-      "ejemplo": "\"it's time for you to prepare for hibernation.\""
-    },
-    {
-      "termino": "adventures",
-      "explicacion": "Exciting, risky, or unusual experiences.",
-      "ejemplo": "\"you will dream of spring adventures.\""
-    },
-    {
-      "termino": "energy",
-      "explicacion": "Capacity to perform work or activity; vitality.",
-      "ejemplo": "\"Rest is the food of energy.\""
+      "explicacion": "Noun that designates the state of winter dormancy in some animals.",
+      "ejemplo": "\"It's time for you to prepare for hibernation.\""
     },
     {
       "termino": "den",
-      "explicacion": "Natural or artificial cavity in the ground, often used as a shelter.",
-      "ejemplo": "\"Mama Bear prepared the den for the winter nap.\""
+      "explicacion": "Noun that names a natural cavity in rock, used as a shelter.",
+      "ejemplo": "Mama Bear prepared the den for the winter nap."
+    },
+    {
+      "termino": "adventures",
+      "explicacion": "Noun that refers to exciting, risky, or unusual experiences.",
+      "ejemplo": "You will dream of spring adventures."
+    },
+    {
+      "termino": "energy",
+      "explicacion": "Noun that means strength, vitality, or capacity to act.",
+      "ejemplo": "Rest is the food of energy."
     },
     {
       "termino": "spring",
-      "explicacion": "Season of the year following winter, characterized by the rebirth of nature.",
+      "explicacion": "Noun that names the season of the year that follows winter.",
       "ejemplo": "\"Welcome to spring!\""
     }
   ],
   "expresiones_idiomaticas": [
     {
       "termino": "wrinkled his nose",
-      "explicacion": "Expression describing a facial gesture of displeasure, doubt, or disapproval.",
-      "ejemplo": "\"Brum wrinkled his nose.\""
+      "explicacion": "Expression that describes the gesture of wrinkling the nose, showing displeasure, doubt, or distrust.",
+      "ejemplo": "Brum wrinkled his nose. \"But, Mama! I don't want to hibernate!\""
     },
     {
-      "termino": "tickled him",
-      "explicacion": "Expression indicating a light, repetitive sensation that provokes an involuntary reaction, like laughing or yawning.",
-      "ejemplo": "\"felt a big yawn that tickled his nose.\""
+      "termino": "tickled his nose",
+      "explicacion": "Expression that indicates the sensation of tickling, here caused by a yawn.",
+      "ejemplo": "He felt a big yawn that tickled his nose."
     },
     {
       "termino": "with a thick voice",
-      "explicacion": "Expression describing an unclear, slow, or thick voice, typical of tiredness or sleepiness.",
-      "ejemplo": "\"asked Brum, with a thick voice.\""
+      "explicacion": "Expression that describes an unclear, slow, or thick voice, typical of tiredness or sleepiness.",
+      "ejemplo": "Asked Brum, with a thick voice."
+    },
+    {
+      "termino": "Day after day",
+      "explicacion": "Expression meaning 'each day consecutively', indicating the continuous passage of time.",
+      "ejemplo": "Day after day, Brum slept."
     }
   ],
   "funciones_comunicativas": [
     {
-      "termino": "Express desire or refusal",
-      "explicacion": "Function to state what one wants or, conversely, what one rejects.",
-      "ejemplo": "\"I don't want to hibernate!\" / \"He wanted to see the forest.\""
+      "termino": "Expressing desire or liking",
+      "explicacion": "Function to communicate what one likes or wants to do.",
+      "ejemplo": "Brum loved to explore. / I don't want to hibernate!"
     },
     {
-      "termino": "Give advice or explanations",
-      "explicacion": "Function to offer guidance, instructions, or clarify concepts.",
-      "ejemplo": "\"Hibernation isn't just sleeping. It's a magical wait.\" / \"Rest is the food of energy.\""
+      "termino": "Giving advice or explanations",
+      "explicacion": "Function to advise, instruct, or clarify the reason for something.",
+      "ejemplo": "\"Don't worry... Hibernation isn't just sleeping. It's a magical wait.\""
     },
     {
-      "termino": "Describe sensations and physical states",
-      "explicacion": "Function to express how the body or mind feels.",
-      "ejemplo": "\"His body felt heavy.\" / \"He felt so strong and full of energy!\""
+      "termino": "Describing physical states and emotions",
+      "explicacion": "Function to express how a person feels physically or emotionally.",
+      "ejemplo": "He felt so strong and full of energy. / Brum sat down, exhausted."
     }
   ],
   "palabras_clave": [
+    "bear",
     "forest",
-    "bear cub",
-    "stars",
+    "explore",
     "autumn",
     "cold",
-    "den",
-    "winter",
-    "snow",
-    "Moon",
-    "explorer",
-    "dreams",
-    "nocturnal",
-    "rest",
-    "tired",
-    "spring",
-    "green",
-    "fresh",
-    "strength",
+    "mother",
     "sleep",
-    "adventures"
-  ]
+    "snow",
+    "moon",
+    "dreams",
+    "tired",
+    "strength",
+    "rest",
+    "grow",
+    "spring",
+    "adventure",
+    "energy",
+    "wait",
+    "wise",
+    "learn"
+  ],
+  "narrativa": "Brum, el oso\nÉrase una vez, en un bosque de colores vibrantes, un pequeño osezno llamado Brum. A Brum le encantaba explorar, saltar sobre el musgo y contar las estrellas.\nCuando el otoño se hizo frío, Mamá Osa preparó la cueva para la siesta de invierno.\n\"Brum, cariño,\" le dijo Mamá Osa, \"es hora de que te prepares para la hibernación.\"\nBrum arrugó la nariz. \"¡Pero, Mamá! ¡Si duermo, me perderé los últimos copos de nieve y la Luna! ¡No quiero hibernar!\"\nMamá Osa lo abrazó. \"No te preocupes, mi pequeño explorador. La hibernación no es solo dormir. Es una mágica espera. Mientras duermes, tu cuerpo crecerá fuerte y soñarás con las aventuras de primavera.\"\nBrum no estaba convencido. Esa noche, mientras su madre roncaba, se escapó. Quería ver el bosque antes de que el sueño lo atrapara.\nSalió y vio la Luna brillante y las estrellas. Corrió y corrió, hasta que sintió un gran bostezo que le hizo cosquillas en la nariz. Se encontró con el Búho Sabio en un roble.\n\"¡Hola, señor Búho!\" susurró Brum. \"Usted no duerme. Yo tampoco quiero.\"\nEl Búho lo miró. \"Hoo-hoo. Yo soy nocturno, Brum. Pero hasta yo necesito siestas. El descanso es el alimento de la energía.\"\nBrum siguió caminando. Su cuerpo se sentía pesado. Luego se encontró con un pequeño Conejo.\n\"¡Hola, Conejo! ¿Por qué no duermes?\" preguntó Brum, con la voz pastosa.\nEl Conejo mordisqueó una hoja. \"Necesito mi sueño. Cuando duermo, me convierto en un Conejo-Cohete en mis sueños, y cuando despierto, puedo correr más rápido que nunca.\"\nBrum se sentó, exhausto. Se dio cuenta de que su aventura no era divertida si estaba cansado. Sus patas no querían correr y sus ojos no veían bien las estrellas. La idea de ser un \"Oso-Cohete\" en sus sueños empezó a sonar muy bien.\nRegresó a su cueva. Se acurrucó junto a Mamá Osa, sintiendo su calor. Cerró los ojos y, justo antes de dormirse, pensó: \"Voy a soñar que atrapo la Luna.\"\nDía tras día, Brum durmió. El bosque se cubrió de nieve, y él tuvo sueños maravillosos: que era un súper-héroe, que volaba y que nadaba en una piscina de miel.\nFinalmente, una mañana sintió un cosquilleo. Abrió los ojos. La cueva estaba llena de luz dorada.\n\"¡Mamá, Mamá!\" gritó.\nMamá Osa se despertó. \"¡Buenos días, mi pequeño explorador! ¡Bienvenido a primavera!\"\nBrum salió corriendo de la cueva. El mundo era verde y fresco. ¡Se sentía tan fuerte y lleno de energía! Podía correr más rápido y saltar más alto.\nHabía aprendido que la espera mágica del sueño no le quitó nada, sino que le dio la fuerza para disfrutar de todas las cosas maravillosas de la primavera.\nY así, Brum el osezno se convirtió en el campeón de las siestas, sabiendo que para tener las mejores aventuras, primero había que tener los mejores sueños."
 }

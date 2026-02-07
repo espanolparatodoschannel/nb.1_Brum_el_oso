@@ -96,7 +96,7 @@ class App {
 
         } catch (error) {
             console.error('Error cargando contenido:', error);
-            UIRenderer.showError(`Error al cargar los datos. Verifica los archivos JSON de 'es' y '${lang}'.`);
+            UIRenderer.showError(`Error al cargar los datos: ${error.message}. Verifica los archivos JSON de 'es' y '${lang}'.`);
         }
     }
 
@@ -106,8 +106,133 @@ class App {
     }
 }
 
+// Funciones globales para controlar el audio de la narrativa
+window.toggleNarrativeAudio = function () {
+    const audio = document.getElementById('narrative-audio');
+    const playIcon = document.querySelector('.play-pause-btn .play-icon');
+    const pauseIcon = document.querySelector('.play-pause-btn .pause-icon');
+
+    if (audio.paused) {
+        audio.play();
+        playIcon.classList.add('hidden');
+        pauseIcon.classList.remove('hidden');
+    } else {
+        audio.pause();
+        playIcon.classList.remove('hidden');
+        pauseIcon.classList.add('hidden');
+    }
+};
+
+
+window.restartNarrativeAudio = function () {
+    const audio = document.getElementById('narrative-audio');
+    audio.currentTime = 0;
+    audio.play();
+    const playIcon = document.querySelector('.play-pause-btn .play-icon');
+    const pauseIcon = document.querySelector('.play-pause-btn .pause-icon');
+    playIcon.classList.add('hidden');
+    pauseIcon.classList.remove('hidden');
+};
+
+window.seekNarrativeAudio = function (value) {
+    const audio = document.getElementById('narrative-audio');
+    const seekTime = (value / 100) * audio.duration;
+    audio.currentTime = seekTime;
+};
+
+// Función para pronunciación con un solo clic - Versión Optimizada y Robusta
+window.speakText = function (text, lang = 'es') {
+    if (!window.speechSynthesis) return;
+
+    // Función interna para ejecutar el discurso
+    const performSpeak = () => {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = lang;
+        utterance.rate = 0.95; // Un pelín más lento suele sonar más natural en voces locales
+        utterance.pitch = 1.0;
+
+        const voices = window.speechSynthesis.getVoices();
+        const esVoices = voices.filter(v => v.lang.startsWith(lang));
+
+        if (esVoices.length > 0) {
+            // Buscamos voces de alta calidad por palabras clave
+            // Prioridad absoluta: Voces "Natural", "Neural", "Google", "Online"
+            const preferredVoice = esVoices.find(v => v.name.toLowerCase().includes('natural'))
+                || esVoices.find(v => v.name.toLowerCase().includes('neural'))
+                || esVoices.find(v => v.name.includes('Google'))
+                || esVoices.find(v => v.name.includes('Online'))
+                || esVoices.find(v => v.name.includes('Microsoft'))
+                || esVoices[0];
+
+            utterance.voice = preferredVoice;
+            console.log(`TTS -> Usando voz: ${preferredVoice.name} (${preferredVoice.lang})`);
+        }
+
+        window.speechSynthesis.speak(utterance);
+    };
+
+    // Si no hay voces cargadas aún, esperamos un momento
+    if (window.speechSynthesis.getVoices().length === 0) {
+        console.warn("TTS -> Esperando a que carguen las voces...");
+        setTimeout(performSpeak, 100);
+    } else {
+        performSpeak();
+    }
+};
+
+// Pre-cargar voces (algunos navegadores las cargan de forma asíncrona)
+if (window.speechSynthesis) {
+    if (speechSynthesis.onvoiceschanged !== undefined) {
+        speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+    }
+}
+
+// Formatear tiempo en formato mm:ss
+function formatTime(seconds) {
+    if (isNaN(seconds)) return '0:00';
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+}
+
+// Actualizar UI del reproductor
+function updateAudioUI() {
+    const audio = document.getElementById('narrative-audio');
+    if (!audio) return;
+
+    const progressBar = document.querySelector('.audio-progress');
+    const currentTimeEl = document.querySelector('.current-time');
+    const totalTimeEl = document.querySelector('.total-time');
+    const playIcon = document.querySelector('.play-pause-btn .play-icon');
+    const pauseIcon = document.querySelector('.play-pause-btn .pause-icon');
+
+    // Actualizar duración total cuando se carga metadata
+    audio.addEventListener('loadedmetadata', () => {
+        if (totalTimeEl) totalTimeEl.textContent = formatTime(audio.duration);
+    });
+
+    // Actualizar progreso durante reproducción
+    audio.addEventListener('timeupdate', () => {
+        if (currentTimeEl) currentTimeEl.textContent = formatTime(audio.currentTime);
+        if (progressBar && audio.duration) {
+            progressBar.value = (audio.currentTime / audio.duration) * 100;
+        }
+    });
+
+    // Resetear cuando termine
+    audio.addEventListener('ended', () => {
+        if (playIcon) playIcon.classList.remove('hidden');
+        if (pauseIcon) pauseIcon.classList.add('hidden');
+        if (progressBar) progressBar.value = 0;
+    });
+}
+
 // Iniciar App cuando el DOM esté listo
 document.addEventListener('DOMContentLoaded', () => {
     const app = new App();
     app.init();
+
+    // Esperar un poco para que se renderice el contenido
+    setTimeout(updateAudioUI, 500);
 });
