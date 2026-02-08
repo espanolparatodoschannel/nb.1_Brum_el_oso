@@ -2,197 +2,192 @@
   "meta": {
     "titulo_historia": "Лингвистический анализ",
     "autor": "Usuario",
-    "fecha": "2026-02-07"
+    "fecha": "2026-02-08"
   },
   "titulo": "Лингвистический анализ",
   "conectores_logicos": [
     {
       "termino": "Когда",
-      "explicacion": "Временной союз, вводящий конкретную ситуацию или момент.",
-      "ejemplo": "Когда осень стала холодной, Мама Медведица приготовила берлогу."
+      "explicacion": "Временной союз, указывающий на момент совершения действия.",
+      "ejemplo": "Когда осень стала холодной, Мама Медведица подготовила берлогу."
     },
     {
       "termino": "Но",
-      "explicacion": "Союз противопоставления, вводящий возражение или противоположную идею.",
-      "ejemplo": "\"Но, Мама! Если я усну, то пропущу последние снежинки!\""
+      "explicacion": "Союз противопоставления, вводит противоположную или возражение.",
+      "ejemplo": "\"Но, Мама! Если я усну, я пропущу последние снежинки и Луну!\""
     },
     {
       "termino": "Пока",
-      "explicacion": "Временной союз, указывающий на одновременность двух действий.",
-      "ejemplo": "Пока ты спишь, твое тело станет сильным."
-    },
-    {
-      "termino": "Затем",
-      "explicacion": "Временной союз, указывающий на последующее событие в последовательности.",
-      "ejemplo": "Брум продолжил идти. Затем он встретил маленького Кролика."
+      "explicacion": "Союз, выражающий одновременность двух действий.",
+      "ejemplo": "Пока ты спишь, твоё тело станет сильным."
     },
     {
       "termino": "Наконец",
-      "explicacion": "Союз, обозначающий последнее событие или заключение последовательности.",
+      "explicacion": "Союз, обозначающий конец последовательности или завершение процесса.",
       "ejemplo": "Наконец, однажды утром он почувствовал щекотку."
     },
     {
       "termino": "И вот так",
-      "explicacion": "Заключительный союз, который подводит итог или представляет следствие из предыдущего.",
+      "explicacion": "Союз, указывающий на следствие или результат предыдущего действия.",
       "ejemplo": "И вот так, медвежонок Брум стал чемпионом по сну."
     }
   ],
   "verbos": [
     {
-      "termino": "обожал",
-      "explicacion": "Глагол, выражающий очень сильную симпатию или увлечение (от глагола 'обожать').",
-      "ejemplo": "Брум обожал исследовать, прыгать по мху и считать звезды."
+      "termino": "исследовать",
+      "explicacion": "Глагол, означающий изучать или исследовать неизвестное место.",
+      "ejemplo": "Брум обожал исследовать, прыгать по мху и считать звёзды."
     },
     {
-      "termino": "приготовила",
-      "explicacion": "Глагол, обозначающий действие по организации или подготовке чего-либо для цели.",
-      "ejemplo": "Мама Медведица приготовила берлогу для зимней спячки."
+      "termino": "готовить / подготовить",
+      "explicacion": "Глагол, означающий организовывать или подготавливать что-либо для определённой цели.",
+      "ejemplo": "Мама Медведица подготовила берлогу для зимней спячки."
     },
     {
-      "termino": "сморщил",
-      "explicacion": "Глагол, описывающий жест сморщивания или стягивания чего-либо, например носа.",
-      "ejemplo": "Брум сморщил нос."
+      "termino": "обнимать / обнять",
+      "explicacion": "Глагол, означающий заключать в объятия в знак любви или утешения.",
+      "ejemplo": "Мама Медведица обняла его."
     },
     {
-      "termino": "сбежал",
-      "explicacion": "Возвратный глагол, означающий уйти или покинуть место без разрешения или тайком.",
-      "ejemplo": "В ту ночь, пока его мать храпела, он сбежал."
+      "termino": "сбегать / сбежать",
+      "explicacion": "Глагол, означающий убежать или уйти с какого-либо места тайком.",
+      "ejemplo": "В ту ночь, пока его мама храпела, он сбежал."
     },
     {
-      "termino": "понял",
-      "explicacion": "Глагольное выражение, означающее понять или осознать что-либо.",
-      "ejemplo": "Он понял, что его приключение не было веселым, если он устал."
+      "termino": "чувствовать / почувствовать",
+      "explicacion": "Глагол, означающий воспринимать физические или эмоциональные ощущения.",
+      "ejemplo": "Он почувствовал огромную зевоту, которая защекотала ему нос."
     },
     {
-      "termino": "превратился",
-      "explicacion": "Возвратный глагол, указывающий на изменение или превращение в кого-либо или во что-либо.",
-      "ejemplo": "Медвежонок Брум превратился в чемпиона по сну."
+      "termino": "узнавать / узнать",
+      "explicacion": "Глагол, означающий приобретать знание или понимание через опыт.",
+      "ejemplo": "Он узнал, что волшебное ожидание во сне ничего у него не отняло."
     }
   ],
   "adjetivos": [
     {
       "termino": "яркие",
-      "explicacion": "Прилагательное, описывающее что-либо полное жизни, энергии или интенсивного цвета.",
-      "ejemplo": "В лесу ярких красок."
+      "explicacion": "Прилагательное, описывающее интенсивные, полные жизни и энергии цвета.",
+      "ejemplo": "Жил-был в лесу с яркими красками."
     },
     {
       "termino": "маленький",
-      "explicacion": "Прилагательное, указывающее на небольшой размер или юный возраст.",
-      "ejemplo": "Маленький медвежонок по имени Брум."
+      "explicacion": "Прилагательное, указывающее на небольшой размер или молодость.",
+      "ejemplo": "маленький медвежонок по имени Брум."
     },
     {
-      "termino": "изнуренный",
-      "explicacion": "Прилагательное, описывающее состояние крайней усталости.",
-      "ejemplo": "Брум сел, изнуренный."
+      "termino": "холодный",
+      "explicacion": "Прилагательное, описывающее низкую температуру.",
+      "ejemplo": "Когда осень стала холодной."
+    },
+    {
+      "termino": "измученный / вымотанный",
+      "explicacion": "Прилагательное, означающее очень уставший, без сил.",
+      "ejemplo": "Брум сел, вымотанный."
     },
     {
       "termino": "чудесные",
-      "explicacion": "Прилагательное, характеризующее что-либо как необыкновенное, восхитительное или вызывающее удивление.",
-      "ejemplo": "Ему снились чудесные сны."
+      "explicacion": "Прилагательное, описывающее что-то необыкновенное, восхитительное или удивительное.",
+      "ejemplo": "ему снились чудесные сны."
     },
     {
       "termino": "свежий",
-      "explicacion": "Прилагательное, описывающее что-либо приятно прохладное, новое или чистое.",
-      "ejemplo": "Мир был зеленым и свежим."
-    },
-    {
-      "termino": "волшебное",
-      "explicacion": "Прилагательное, относящееся к чему-либо, связанному с магией, или являющееся необыкновенным и очаровательным.",
-      "ejemplo": "Это волшебное ожидание."
+      "explicacion": "Прилагательное, описывающее что-то приятно прохладное, новое или освежающее.",
+      "ejemplo": "Мир был зелёным и свежим."
     }
   ],
   "sustantivos_clave": [
     {
-      "termino": "медвежонок",
-      "explicacion": "Существительное, означающее 'молодой медведь' или 'медвежонок'.",
-      "ejemplo": "Маленький медвежонок по имени Брум."
+      "termino": "лес",
+      "explicacion": "Природное место, заросшее деревьями и растительностью, главная сцена истории.",
+      "ejemplo": "в лесу с яркими красками."
     },
     {
-      "termino": "зимняя спячка",
-      "explicacion": "Существительное, обозначающее состояние зимнего оцепенения у некоторых животных.",
-      "ejemplo": "\"Пора тебе готовиться к зимней спячке.\""
-    },
-    {
-      "termino": "берлога",
-      "explicacion": "Существительное, называющее естественную полость в скале, используемую как убежище.",
-      "ejemplo": "Мама Медведица приготовила берлогу для зимней спячки."
+      "termino": "зимняя спячка / гибернация",
+      "explicacion": "Процесс длительного сна зимой для сохранения энергии.",
+      "ejemplo": "\"пора готовиться к зимней спячке.\""
     },
     {
       "termino": "приключения",
-      "explicacion": "Существительное, относящееся к захватывающим, рискованным или необычным переживаниям.",
-      "ejemplo": "Ты будешь видеть сны о весенних приключениях."
+      "explicacion": "Волнующие, рискованные или новые впечатления.",
+      "ejemplo": "будешь видеть во сне приключения весны."
     },
     {
       "termino": "энергия",
-      "explicacion": "Существительное, означающее силу, жизненную энергию или способность действовать.",
+      "explicacion": "Способность выполнять деятельность или прилагать усилия; жизненная сила.",
       "ejemplo": "Отдых — это пища для энергии."
     },
     {
       "termino": "весна",
-      "explicacion": "Существительное, называющее время года, следующее за зимой.",
+      "explicacion": "Время года, следующее за зимой, ассоциируется с возрождением и жизненной силой.",
       "ejemplo": "\"Добро пожаловать в весну!\""
+    },
+    {
+      "termino": "сны",
+      "explicacion": "Образы, мысли или эмоции, которые испытывают во время сна.",
+      "ejemplo": "чтобы были лучшие приключения, сначала нужно видеть лучшие сны."
     }
   ],
   "expresiones_idiomaticas": [
     {
       "termino": "сморщил нос",
-      "explicacion": "Выражение, описывающее жест сморщивания носа, выражающий недовольство, сомнение или недоверие.",
-      "ejemplo": "Брум сморщил нос. \"Но, Мама! Я не хочу впадать в спячку!\""
+      "explicacion": "Выражение лица, означающее недовольство, неодобрение или отвращение.",
+      "ejemplo": "Брум сморщил нос."
     },
     {
-      "termino": "защекотало",
-      "explicacion": "Выражение, обозначающее ощущение щекотки, здесь вызванное зевком.",
-      "ejemplo": "Он почувствовал огромный зевок, который защекотал ему нос."
+      "termino": "стало холодно",
+      "explicacion": "Выражение, указывающее на изменение погоды в сторону низких температур.",
+      "ejemplo": "Когда осень стала холодной."
     },
     {
-      "termino": "вялым голосом",
-      "explicacion": "Выражение, описывающее нечеткий, медленный или густой голос, типичный для усталости или сонливости.",
-      "ejemplo": "Спросил Брум вялым голосом."
+      "termino": "покрылся снегом",
+      "explicacion": "Выражение, описывающее, как что-то полностью покрывается снегом.",
+      "ejemplo": "Лес покрылся снегом."
     },
     {
-      "termino": "День за днем",
-      "explicacion": "Выражение, означающее 'каждый день подряд', указывающее на непрерывное течение времени.",
-      "ejemplo": "День за днем Брум спал."
+      "termino": "полный энергии",
+      "explicacion": "Выражение, означающее иметь много жизненных сил, энергии или динамизма.",
+      "ejemplo": "Он чувствовал себя таким сильным и полным энергии!"
     }
   ],
   "funciones_comunicativas": [
     {
-      "termino": "Выражать желание или симпатию",
-      "explicacion": "Функция для сообщения о том, что человеку нравится или хочется делать.",
-      "ejemplo": "Брум обожал исследовать. / Я не хочу впадать в спячку!"
-    },
-    {
       "termino": "Давать советы или объяснения",
-      "explicacion": "Функция для того, чтобы советовать, инструктировать или разъяснять причину чего-либо.",
-      "ejemplo": "\"Не волнуйся... Зимняя спячка — это не просто сон. Это волшебное ожидание.\""
+      "explicacion": "Речевой акт, направленный на то, чтобы дать совет, прояснить или обосновать идею или действие.",
+      "ejemplo": "\"Не волнуйся, мой маленький исследователь. Зимняя спячка — это не просто сон. Это волшебное ожидание.\""
     },
     {
-      "termino": "Описывать физические состояния и эмоции",
-      "explicacion": "Функция для выражения физического или душевного состояния человека.",
-      "ejemplo": "Он чувствовал себя таким сильным и полным энергии. / Брум сел, изнуренный."
+      "termino": "Выражать отказ или несогласие",
+      "explicacion": "Речевой акт, показывающий несогласие, отказ или противоречие предложению.",
+      "ejemplo": "\"Но, Мама! Если я усну, я пропущу последние снежинки и Луну! Я не хочу в спячку!\""
+    },
+    {
+      "termino": "Описывать ощущения или состояния",
+      "explicacion": "Речевой акт, выражающий физические или эмоциональные восприятия, или личные состояния.",
+      "ejemplo": "Брум сел, вымотанный. Его тело чувствовало себя тяжёлым."
     }
   ],
   "palabras_clave": [
     "медведь",
     "лес",
     "исследовать",
-    "осень",
-    "холод",
-    "мать",
-    "спать",
+    "зимняя спячка",
+    "сон",
+    "приключения",
+    "весна",
+    "энергия",
+    "отдых",
+    "волшебный",
+    "холодный",
     "снег",
     "луна",
-    "сны",
-    "уставший",
+    "звёзды",
+    "берлога",
+    "мама",
     "сила",
-    "отдых",
-    "расти",
-    "весна",
-    "приключение",
-    "энергия",
-    "ожидание",
-    "мудрый",
-    "учиться"
+    "чемпион",
+    "дрёма",
+    "ожидание"
   ],
-  "narrativa": "Brum, el oso\nÉrase una vez, en un bosque de colores vibrantes, un pequeño osezno llamado Brum. A Brum le encantaba explorar, saltar sobre el musgo y contar las estrellas.\nCuando el otoño se hizo frío, Mamá Osa preparó la cueva para la siesta de invierno.\n\"Brum, cariño,\" le dijo Mamá Osa, \"es hora de que te prepares para la hibernación.\"\nBrum arrugó la nariz. \"¡Pero, Mamá! ¡Si duermo, me perderé los últimos copos de nieve y la Luna! ¡No quiero hibernar!\"\nMamá Osa lo abrazó. \"No te preocupes, mi pequeño explorador. La hibernación no es solo dormir. Es una mágica espera. Mientras duermes, tu cuerpo crecerá fuerte y soñarás con las aventuras de primavera.\"\nBrum no estaba convencido. Esa noche, mientras su madre roncaba, se escapó. Quería ver el bosque antes de que el sueño lo atrapara.\nSalió y vio la Luna brillante y las estrellas. Corrió y corrió, hasta que sintió un gran bostezo que le hizo cosquillas en la nariz. Se encontró con el Búho Sabio en un roble.\n\"¡Hola, señor Búho!\" susurró Brum. \"Usted no duerme. Yo tampoco quiero.\"\nEl Búho lo miró. \"Hoo-hoo. Yo soy nocturno, Brum. Pero hasta yo necesito siestas. El descanso es el alimento de la energía.\"\nBrum siguió caminando. Su cuerpo se sentía pesado. Luego se encontró con un pequeño Conejo.\n\"¡Hola, Conejo! ¿Por qué no duermes?\" preguntó Brum, con la voz pastosa.\nEl Conejo mordisqueó una hoja. \"Necesito mi sueño. Cuando duermo, me convierto en un Conejo-Cohete en mis sueños, y cuando despierto, puedo correr más rápido que nunca.\"\nBrum se sentó, exhausto. Se dio cuenta de que su aventura no era divertida si estaba cansado. Sus patas no querían correr y sus ojos no veían bien las estrellas. La idea de ser un \"Oso-Cohete\" en sus sueños empezó a sonar muy bien.\nRegresó a su cueva. Se acurrucó junto a Mamá Osa, sintiendo su calor. Cerró los ojos y, justo antes de dormirse, pensó: \"Voy a soñar que atrapo la Luna.\"\nDía tras día, Brum durmió. El bosque se cubrió de nieve, y él tuvo sueños maravillosos: que era un súper-héroe, que volaba y que nadaba en una piscina de miel.\nFinalmente, una mañana sintió un cosquilleo. Abrió los ojos. La cueva estaba llena de luz dorada.\n\"¡Mamá, Mamá!\" gritó.\nMamá Osa se despertó. \"¡Buenos días, mi pequeño explorador! ¡Bienvenido a primavera!\"\nBrum salió corriendo de la cueva. El mundo era verde y fresco. ¡Se sentía tan fuerte y lleno de energía! Podía correr más rápido y saltar más alto.\nHabía aprendido que la espera mágica del sueño no le quitó nada, sino que le dio la fuerza para disfrutar de todas las cosas maravillosas de la primavera.\nY así, Brum el osezno se convirtió en el campeón de las siestas, sabiendo que для того, чтобы иметь лучшие приключения, сначала нужно иметь лучшие сны."
+  "narrativa": "Brum, el oso\nÉrase una vez, en un bosque de colores vibrantes, un pequeño osezno llamado Brum. A Brum le encantaba explorar, saltar sobre el musgo y contar las estrellas.\nCuando el otoño se hizo frío, Mamá Osa preparó la cueva para la siesta de invierno.\n\"Brum, cariño,\" le dijo Mamá Osa, \"es hora de que te prepares para la hibernación.\"\nBrum arrugó la nariz. \"¡Pero, Mamá! ¡Si duermo, me perderé los últimos copos de nieve y la Luna! ¡No quiero hibernar!\"\nMamá Osa lo abrazó. \"No te preocupes, mi pequeño explorador. La hibernación no es solo dormir. Es una mágica espera. Mientras duermes, tu cuerpo crecerá fuerte y soñarás con las aventuras de primavera.\"\nBrum no estaba convencido. Esa noche, mientras su madre roncaba, se escapó. Quería ver el bosque antes de que el sueño lo atrapara.\nSalió y vio la Luna brillante y las estrellas. Corrió y corrió, hasta que sintió un gran bostezo que le hizo cosquillas en la nariz. Se encontró con el Búho Sabio en un roble.\n\"¡Hola, señor Búho!\" susurró Brum. \"Usted no duerme. Yo tampoco quiero.\"\nEl Búho lo miró. \"Hoo-hoo. Yo soy nocturno, Brum. Pero hasta yo necesito siestas. El descanso es el alimento de la energía.\"\nBrum siguió caminando. Su cuerpo se sentía pesado. Luego se encontró con un pequeño Conejo.\n\"¡Hola, Conejo! ¿Por qué no duermes?\" preguntó Brum, con la voz pastosa.\nEl Conejo mordisqueó una hoja. \"Necesito mi sueño. Cuando duermo, me convierto en un Conejo-Cohete en mis sueños, y cuando despierto, puedo correr más rápido que nunca.\"\nBrum se sentó, exhausto. Se dio cuenta de que su aventura no era divertida si estaba cansado. Sus patas no querían correr y sus ojos no veían bien las estrellas. La idea de ser un \"Oso-Cohete\" en sus sueños empezó a sonar muy bien.\nRegresó a su cueva. Se acurrucó junto a Mamá Osa, sintiendo su calor. Cerró los ojos y, justo antes de dormirse, pensó: \"Voy a soñar que atrapo la Luna.\"\nDía tras día, Brum durmió. El bosque se cubrió de nieve, y él tuvo sueños maravillosos: que era un súper-héroe, que volaba y que nadaba en una piscina de miel.\nFinalmente, una mañana sintió un cosquilleo. Abrió los ojos. La cueva estaba llena de luz dorada.\n\"¡Mamá, Mamá!\" gritó.\nMamá Osa se despertó. \"¡Buenos días, mi pequeño explorador! ¡Bienvenido a primavera!\"\nBrum salió corriendo de la cueva. El mundo era verde y fresco. ¡Se sentía tan fuerte y lleno de energía! Podía correr más rápido y saltar más alto.\nHabía aprendido que la espera mágica del sueño no le quitó nada, sino que le dio la fuerza para disfrutar de todas las cosas maravillosas de la primavera.\nY así, Brum el osezno se convirtió en el campeón de las siestas, sabiendo que para tener las mejores aventuras, primero había que tener los mejores sueños."
 }

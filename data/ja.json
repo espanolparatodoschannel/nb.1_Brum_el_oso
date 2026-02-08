@@ -2,197 +2,193 @@
   "meta": {
     "titulo_historia": "言語分析",
     "autor": "Usuario",
-    "fecha": "2026-02-07"
+    "fecha": "2026-02-08"
   },
   "titulo": "言語分析",
   "conectores_logicos": [
     {
-      "termino": "時",
-      "explicacion": "特定の状況や瞬間を導入する時間的接続詞。",
-      "ejemplo": "秋が寒くなった時、母熊は洞窟を準備した。"
+      "termino": "〜とき",
+      "explicacion": "ある行動が起こる時を示す時間的な接続詞です。",
+      "ejemplo": "秋が寒くなったとき、母熊は冬眠のための巣穴を準備しました。"
     },
     {
-      "termino": "しかし",
-      "explicacion": "反対の意見や異なる考えを導入する対比の接続詞。",
-      "ejemplo": "「でも、ママ！寝ちゃったら、最後の雪の結晶を見逃しちゃうよ！」"
+      "termino": "でも",
+      "explicacion": "反対の考えや異議を唱えるときに使う、対比の接続詞です。",
+      "ejemplo": "「でも、ママ！寝ちゃったら、最後の雪の結晶や月を見逃しちゃうよ！冬眠したくない！」"
     },
     {
-      "termino": "一方で",
-      "explicacion": "二つの行動が同時に起こっていることを示す時間的接続詞。",
-      "ejemplo": "君が眠っている間、君の体は強く成長するよ。"
+      "termino": "〜ながら",
+      "explicacion": "二つの行動が同時に行われていることを表す接続詞です。",
+      "ejemplo": "君が眠っている間に、君の体は強く成長するんだよ。"
     },
     {
-      "termino": "その後",
-      "explicacion": "一連の出来事の中で後続することを示す時間的接続詞。",
-      "ejemplo": "ブルムは歩き続けた。その後、小さなウサギに出会った。"
-    },
-    {
-      "termino": "最終的に",
-      "explicacion": "一連の出来事の最後の事象や結論を示す接続詞。",
-      "ejemplo": "最終的に、ある朝、くすぐったい感覚を感じた。"
+      "termino": "ついに",
+      "explicacion": "一連の流れの終わりや、プロセスの結論を示す接続詞です。",
+      "ejemplo": "ついに、ある朝、くすぐったい感じがしました。"
     },
     {
       "termino": "こうして",
-      "explicacion": "前述の内容を要約したり、その結果を提示する結論的な接続詞。",
-      "ejemplo": "こうして、子熊のブルムはお昼寝のチャンピオンになった。"
+      "explicacion": "前の行動の結果や帰結を示す接続詞です。",
+      "ejemplo": "こうして、子熊のブルムはお昼寝のチャンピオンになりました。"
     }
   ],
   "verbos": [
     {
-      "termino": "大好きだった",
-      "explicacion": "非常に強い好みや趣味を表す動詞（動詞「魅了する」から）。",
-      "ejemplo": "ブルムは探検すること、苔の上を跳ぶこと、星を数えることが大好きだった。"
+      "termino": "探検する",
+      "explicacion": "未知の場所を調べたり歩き回ったりすることを意味する動詞です。",
+      "ejemplo": "ブルムは探検したり、苔の上を跳ねたり、星を数えたりするのが大好きでした。"
     },
     {
-      "termino": "準備した",
-      "explicacion": "ある目的のために何かを整えたり用意したりする行動を示す動詞。",
-      "ejemplo": "母熊は冬眠のための洞窟を準備した。"
+      "termino": "準備する",
+      "explicacion": "ある目的のために何かを整えたり用意したりすることを意味する動詞です。",
+      "ejemplo": "母熊は冬眠のための巣穴を準備しました。"
     },
     {
-      "termino": "しわくちゃにした",
-      "explicacion": "鼻などをしかめたり、縮めたりする仕草を表す動詞。",
-      "ejemplo": "ブルムは鼻をしわくちゃにした。"
+      "termino": "抱きしめる",
+      "explicacion": "愛情や慰めのしるしとして腕で包み込むことを意味する動詞です。",
+      "ejemplo": "母熊は彼を抱きしめました。"
     },
     {
-      "termino": "逃げ出した",
-      "explicacion": "許可なく、またはこっそりと場所から出たり去ったりすることを意味する再帰動詞。",
-      "ejemplo": "その夜、母親がいびきをかいている間に、彼は逃げ出した。"
+      "termino": "逃げ出す",
+      "explicacion": "こっそりと場所から逃げたり出たりすることを意味する動詞です。",
+      "ejemplo": "その夜、お母さんがイビキをかいている間に、彼は逃げ出しました。"
     },
     {
-      "termino": "気づいた",
-      "explicacion": "何かを理解したり、気づいたりすることを意味する動詞表現。",
-      "ejemplo": "彼は、自分の冒険が疲れていると楽しくないことに気づいた。"
+      "termino": "感じる",
+      "explicacion": "身体的な感覚や感情を感知することを意味する動詞です。",
+      "ejemplo": "鼻がくすぐったくなる大きなあくびを感じました。"
     },
     {
-      "termino": "なった",
-      "explicacion": "何かや誰かが変化したり、変身したりすることを示す再帰動詞。",
-      "ejemplo": "子熊のブルムはお昼寝のチャンピオンになった。"
+      "termino": "学ぶ",
+      "explicacion": "経験を通して知識や理解を得ることを意味する動詞です。",
+      "ejemplo": "魔法のような眠りの待ち時間は何も奪わず、むしろ力を与えてくれたことを学びました。"
     }
   ],
   "adjetivos": [
     {
       "termino": "鮮やかな",
-      "explicacion": "生命力、エネルギー、または強い色に満ちていることを表す形容詞。",
-      "ejemplo": "鮮やかな色の森の中で。"
+      "explicacion": "強く、生き生きとしてエネルギーに満ちた色を表す形容詞です。",
+      "ejemplo": "昔々、鮮やかな色の森に。"
     },
     {
       "termino": "小さな",
-      "explicacion": "サイズが小さいことや年齢が幼いことを示す形容詞。",
-      "ejemplo": "ブルムという小さな子熊。"
+      "explicacion": "サイズが小さいことや幼さを示す形容詞です。",
+      "ejemplo": "ブルムという小さな子熊がいました。"
+    },
+    {
+      "termino": "寒い",
+      "explicacion": "気温が低いことを表す形容詞です。",
+      "ejemplo": "秋が寒くなったとき。"
     },
     {
       "termino": "疲れ果てた",
-      "explicacion": "極度の疲労状態を表す形容詞。",
-      "ejemplo": "ブルムは疲れ果てて座った。"
+      "explicacion": "とても疲れていて、エネルギーがない状態を意味する形容詞です。",
+      "ejemplo": "ブルムは座り込み、疲れ果てていました。"
     },
     {
       "termino": "素晴らしい",
-      "explicacion": "何かを並外れた、賞賛に値する、または驚きを引き起こすものとして修飾する形容詞。",
-      "ejemplo": "彼は素晴らしい夢を見た。"
+      "explicacion": "並外れて、賞賛に値する、驚くべき何かを表す形容詞です。",
+      "ejemplo": "彼は素晴らしい夢を見ました。"
     },
     {
-      "termino": "新鮮な",
-      "explicacion": "心地よく冷たい、新しい、または純粋なものを表す形容詞。",
-      "ejemplo": "世界は緑で新鮮だった。"
-    },
-    {
-      "termino": "魔法のような",
-      "explicacion": "魔法に関連する、または並外れて魅力的なものを指す形容詞。",
-      "ejemplo": "それは魔法のような待ち時間だ。"
+      "termino": "爽やかな",
+      "explicacion": "心地よく冷たい、新しい、活力を与えるようなものを表す形容詞です。",
+      "ejemplo": "世界は緑で爽やかでした。"
     }
   ],
   "sustantivos_clave": [
     {
-      "termino": "子熊",
-      "explicacion": "「若い熊」または「熊の子」を意味する名詞。",
-      "ejemplo": "ブルムという小さな子熊。"
+      "termino": "森",
+      "explicacion": "木や植物が生い茂る自然の場所で、物語の主な舞台です。",
+      "ejemplo": "鮮やかな色の森に。"
     },
     {
       "termino": "冬眠",
-      "explicacion": "一部の動物の冬の休眠状態を指す名詞。",
-      "ejemplo": "「冬眠の準備をする時が来たよ。」"
-    },
-    {
-      "termino": "洞窟",
-      "explicacion": "避難所として使われる岩の自然な空洞を指す名詞。",
-      "ejemplo": "母熊は冬眠のための洞窟を準備した。"
+      "explicacion": "エネルギーを節約するために冬の間、長い間眠るプロセスです。",
+      "ejemplo": "「冬眠の準備をする時間よ。」"
     },
     {
       "termino": "冒険",
-      "explicacion": "刺激的で危険な、または普通ではない経験を指す名詞。",
-      "ejemplo": "春の冒険の夢を見るだろう。"
+      "explicacion": "興奮するような、危険が伴う、または新しい経験です。",
+      "ejemplo": "春の冒険の夢を見るでしょう。"
     },
     {
       "termino": "エネルギー",
-      "explicacion": "力、活力、または行動する能力を意味する名詞。",
-      "ejemplo": "休息はエネルギーの糧だ。"
+      "explicacion": "活動や努力を行う能力、活力です。",
+      "ejemplo": "休息はエネルギーの栄養です。"
     },
     {
       "termino": "春",
-      "explicacion": "冬の後に来る季節を指す名詞。",
+      "explicacion": "冬の後に来る季節で、再生と活力と関連付けられます。",
       "ejemplo": "「春へようこそ！」"
+    },
+    {
+      "termino": "夢",
+      "explicacion": "眠っている間に経験するイメージ、考え、感情です。",
+      "ejemplo": "最高の冒険をするためには、まず最高の夢を見なければならない。"
     }
   ],
   "expresiones_idiomaticas": [
     {
-      "termino": "鼻をしわくちゃにした",
-      "explicacion": "不快感、疑念、または不信を示すために鼻をしかめる仕草を表す表現。",
-      "ejemplo": "ブルムは鼻をしわくちゃにした。「でも、ママ！冬眠したくないよ！」"
+      "termino": "鼻をひくつかせる",
+      "explicacion": "不満、不賛成、嫌悪を示す表情です。",
+      "ejemplo": "ブルムは鼻をひくつかせました。"
     },
     {
-      "termino": "鼻がくすぐったくなった",
-      "explicacion": "くすぐったい感覚を示す表現。ここではあくびによって引き起こされたもの。",
-      "ejemplo": "鼻がくすぐったくなる大きなあくびを感じた。"
+      "termino": "寒くなる",
+      "explicacion": "気候が低温に向かって変化することを示す表現です。",
+      "ejemplo": "秋が寒くなったとき。"
     },
     {
-      "termino": "ぼんやりした声で",
-      "explicacion": "疲労や眠気に典型的な、不明瞭で、遅く、または粘り気のある声を表す表現。",
-      "ejemplo": "ブルムはぼんやりした声で尋ねた。"
+      "termino": "雪に覆われる",
+      "explicacion": "何かが完全に雪で覆われる様子を表す表現です。",
+      "ejemplo": "森は雪に覆われました。"
     },
     {
-      "termino": "日々",
-      "explicacion": "「毎日連続して」という意味で、時間の継続的な経過を示す表現。",
-      "ejemplo": "日々、ブルムは眠った。"
+      "termino": "エネルギーに満ちている",
+      "explicacion": "たくさんの活力、力、活気があることを意味する表現です。",
+      "ejemplo": "とても強く、エネルギーに満ちていると感じました！"
     }
   ],
   "funciones_comunicativas": [
     {
-      "termino": "願望や好みを表現する",
-      "explicacion": "自分が好きなことやしたいことを伝えるための機能。",
-      "ejemplo": "ブルムは探検することが大好きだった。/ 冬眠したくない！"
+      "termino": "アドバイスや説明をする",
+      "explicacion": "考えや行動を導いたり、明確にしたり、正当化したりするための発話行為です。",
+      "ejemplo": "「心配しないで、私の小さな探検家。冬眠はただ眠ることじゃないの。魔法のような待ち時間なの。眠っている間に、君の体は強く成長するし、春の冒険の夢を見るでしょう。」"
     },
     {
-      "termino": "アドバイスや説明を与える",
-      "explicacion": "助言したり、指示したり、何かの理由を明確にするための機能。",
-      "ejemplo": "「心配しないで…冬眠はただ眠ることだけじゃない。それは魔法のような待ち時間なんだ。」"
+      "termino": "否定や不同意を表す",
+      "explicacion": "提案に対して反対、拒否、矛盾を示す発話行為です。",
+      "ejemplo": "「でも、ママ！寝ちゃったら、最後の雪の結晶や月を見逃しちゃうよ！冬眠したくない！」"
     },
     {
-      "termino": "身体的状態や感情を描写する",
-      "explicacion": "人が身体的または精神的にどのように感じているかを表現する機能。",
-      "ejemplo": "彼はとても強く、エネルギーに満ちていると感じた。/ ブルムは疲れ果てて座った。"
+      "termino": "感覚や状態を描写する",
+      "explicacion": "身体的な知覚、感情、個人的な状態を表現する発話行為です。",
+      "ejemplo": "ブルムは座り込み、疲れ果てていました。体が重く感じました。"
     }
   ],
   "palabras_clave": [
     "熊",
     "森",
-    "探検",
-    "秋",
+    "探検する",
+    "冬眠",
+    "眠り",
+    "夢",
+    "冒険",
+    "春",
+    "エネルギー",
+    "休息",
+    "魔法のような",
     "寒い",
-    "母",
-    "眠る",
     "雪",
     "月",
-    "夢",
-    "疲れた",
+    "星",
+    "巣穴",
+    "ママ",
     "力",
-    "休息",
-    "成長",
-    "春",
-    "冒険",
-    "エネルギー",
-    "待ち時間",
-    "賢い",
-    "学ぶ"
+    "チャンピオン",
+    "お昼寝",
+    "待ち時間"
   ],
   "narrativa": "Brum, el oso\nÉrase una vez, en un bosque de colores vibrantes, un pequeño osezno llamado Brum. A Brum le encantaba explorar, saltar sobre el musgo y contar las estrellas.\nCuando el otoño se hizo frío, Mamá Osa preparó la cueva para la siesta de invierno.\n\"Brum, cariño,\" le dijo Mamá Osa, \"es hora de que te prepares para la hibernación.\"\nBrum arrugó la nariz. \"¡Pero, Mamá! ¡Si duermo, me perderé los últimos copos de nieve y la Luna! ¡No quiero hibernar!\"\nMamá Osa lo abrazó. \"No te preocupes, mi pequeño explorador. La hibernación no es solo dormir. Es una mágica espera. Mientras duermes, tu cuerpo crecerá fuerte y soñarás con las aventuras de primavera.\"\nBrum no estaba convencido. Esa noche, mientras su madre roncaba, se escapó. Quería ver el bosque antes de que el sueño lo atrapara.\nSalió y vio la Luna brillante y las estrellas. Corrió y corrió, hasta que sintió un gran bostezo que le hizo cosquillas en la nariz. Se encontró con el Búho Sabio en un roble.\n\"¡Hola, señor Búho!\" susurró Brum. \"Usted no duerme. Yo tampoco quiero.\"\nEl Búho lo miró. \"Hoo-hoo. Yo soy nocturno, Brum. Pero hasta yo necesito siestas. El descanso es el alimento de la energía.\"\nBrum siguió caminando. Su cuerpo se sentía pesado. Luego se encontró con un pequeño Conejo.\n\"¡Hola, Conejo! ¿Por qué no duermes?\" preguntó Brum, con la voz pastosa.\nEl Conejo mordisqueó una hoja. \"Necesito mi sueño. Cuando duermo, me convierto en un Conejo-Cohete en mis sueños, y cuando despierto, puedo correr más rápido que nunca.\"\nBrum se sentó, exhausto. Se dio cuenta de que su aventura no era divertida si estaba cansado. Sus patas no querían correr y sus ojos no veían bien las estrellas. La idea de ser un \"Oso-Cohete\" en sus sueños empezó a sonar muy bien.\nRegresó a su cueva. Se acurrucó junto a Mamá Osa, sintiendo su calor. Cerró los ojos y, justo antes de dormirse, pensó: \"Voy a soñar que atrapo la Luna.\"\nDía tras día, Brum durmió. El bosque se cubrió de nieve, y él tuvo sueños maravillosos: que era un súper-héroe, que volaba y que nadaba en una piscina de miel.\nFinalmente, una mañana sintió un cosquilleo. Abrió los ojos. La cueva estaba llena de luz dorada.\n\"¡Mamá, Mamá!\" gritó.\nMamá Osa se despertó. \"¡Buenos días, mi pequeño explorador! ¡Bienvenido a primavera!\"\nBrum salió corriendo de la cueva. El mundo era verde y fresco. ¡Se sentía tan fuerte y lleno de energía! Podía correr más rápido y saltar más alto.\nHabía aprendido que la espera mágica del sueño no le quitó nada, sino que le dio la fuerza para disfrutar de todas las cosas maravillosas de la primavera.\nY así, Brum el osezno se convirtió en el campeón de las siestas, sabiendo que para tener las mejores aventuras, primero había que tener los mejores sueños."
 }

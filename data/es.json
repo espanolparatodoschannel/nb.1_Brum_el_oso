@@ -2,197 +2,192 @@
   "meta": {
     "titulo_historia": "Análisis Lingüístico",
     "autor": "Usuario",
-    "fecha": "2026-02-07"
+    "fecha": "2026-02-08"
   },
   "titulo": "Análisis Lingüístico",
   "conectores_logicos": [
     {
       "termino": "Cuando",
-      "explicacion": "Conector temporal que introduce una situación o momento específico.",
+      "explicacion": "Conector temporal que indica el momento en que ocurre una acción.",
       "ejemplo": "Cuando el otoño se hizo frío, Mamá Osa preparó la cueva."
     },
     {
       "termino": "Pero",
-      "explicacion": "Conector de contraste que introduce una objeción o idea opuesta.",
+      "explicacion": "Conector de contraste que introduce una idea opuesta o de objeción.",
       "ejemplo": "\"¡Pero, Mamá! ¡Si duermo, me perderé los últimos copos de nieve!\""
     },
     {
       "termino": "Mientras",
-      "explicacion": "Conector temporal que indica simultaneidad de dos acciones.",
+      "explicacion": "Conector que expresa simultaneidad entre dos acciones.",
       "ejemplo": "Mientras duermes, tu cuerpo crecerá fuerte."
     },
     {
-      "termino": "Luego",
-      "explicacion": "Conector temporal que indica posterioridad en una secuencia de eventos.",
-      "ejemplo": "Brum siguió caminando. Luego se encontró con un pequeño Conejo."
-    },
-    {
       "termino": "Finalmente",
-      "explicacion": "Conector que marca el último evento o la conclusión de una secuencia.",
+      "explicacion": "Conector que señala el final de una secuencia o la conclusión de un proceso.",
       "ejemplo": "Finalmente, una mañana sintió un cosquilleo."
     },
     {
       "termino": "Y así",
-      "explicacion": "Conector conclusivo que resume o presenta la consecuencia de lo anterior.",
+      "explicacion": "Conector que indica consecuencia o resultado de una acción previa.",
       "ejemplo": "Y así, Brum el osezno se convirtió en el campeón de las siestas."
     }
   ],
   "verbos": [
     {
-      "termino": "encantaba",
-      "explicacion": "Verbo que expresa un gusto o afición muy fuerte (del verbo 'encantar').",
+      "termino": "explorar",
+      "explicacion": "Verbo que significa investigar o recorrer un lugar desconocido.",
       "ejemplo": "A Brum le encantaba explorar, saltar sobre el musgo y contar las estrellas."
     },
     {
-      "termino": "preparó",
-      "explicacion": "Verbo que indica una acción de organizar o disponer algo para un fin.",
+      "termino": "preparar",
+      "explicacion": "Verbo que significa organizar o disponer algo para un fin.",
       "ejemplo": "Mamá Osa preparó la cueva para la siesta de invierno."
     },
     {
-      "termino": "arrugó",
-      "explicacion": "Verbo que describe el gesto de fruncir o contraer algo, como la nariz.",
-      "ejemplo": "Brum arrugó la nariz."
+      "termino": "abrazar",
+      "explicacion": "Verbo que significa rodear con los brazos en señal de afecto o consuelo.",
+      "ejemplo": "Mamá Osa lo abrazó."
     },
     {
-      "termino": "se escapó",
-      "explicacion": "Verbo pronominal que significa salir o irse de un lugar sin permiso o a escondidas.",
+      "termino": "escapar",
+      "explicacion": "Verbo que significa huir o salir de un lugar de manera furtiva.",
       "ejemplo": "Esa noche, mientras su madre roncaba, se escapó."
     },
     {
-      "termino": "se dio cuenta",
-      "explicacion": "Expresión verbal que significa comprender o percatarse de algo.",
-      "ejemplo": "Se dio cuenta de que su aventura no era divertida si estaba cansado."
+      "termino": "sentir",
+      "explicacion": "Verbo que significa percibir sensaciones físicas o emocionales.",
+      "ejemplo": "Sintió un gran bostezo que le hizo cosquillas en la nariz."
     },
     {
-      "termino": "se convirtió",
-      "explicacion": "Verbo pronominal que indica un cambio o transformación en algo o alguien.",
-      "ejemplo": "Brum el osezno se convirtió en el campeón de las siestas."
+      "termino": "aprender",
+      "explicacion": "Verbo que significa adquirir conocimiento o comprensión a través de la experiencia.",
+      "ejemplo": "Había aprendido que la espera mágica del sueño no le quitó nada."
     }
   ],
   "adjetivos": [
     {
       "termino": "vibrantes",
-      "explicacion": "Adjetivo que describe algo lleno de vida, energía o color intenso.",
-      "ejemplo": "En un bosque de colores vibrantes."
+      "explicacion": "Adjetivo que describe colores intensos, llenos de vida y energía.",
+      "ejemplo": "Érase una vez, en un bosque de colores vibrantes."
     },
     {
       "termino": "pequeño",
-      "explicacion": "Adjetivo que indica tamaño reducido o poca edad.",
-      "ejemplo": "Un pequeño osezno llamado Brum."
+      "explicacion": "Adjetivo que indica tamaño reducido o juventud.",
+      "ejemplo": "un pequeño osezno llamado Brum."
+    },
+    {
+      "termino": "frío",
+      "explicacion": "Adjetivo que describe baja temperatura.",
+      "ejemplo": "Cuando el otoño se hizo frío."
     },
     {
       "termino": "exhausto",
-      "explicacion": "Adjetivo que describe un estado de cansancio extremo.",
+      "explicacion": "Adjetivo que significa muy cansado, sin energía.",
       "ejemplo": "Brum se sentó, exhausto."
     },
     {
       "termino": "maravillosos",
-      "explicacion": "Adjetivo que califica algo como extraordinario, admirable o que causa asombro.",
-      "ejemplo": "Él tuvo sueños maravillosos."
+      "explicacion": "Adjetivo que describe algo extraordinario, admirable o asombroso.",
+      "ejemplo": "él tuvo sueños maravillosos."
     },
     {
       "termino": "fresco",
-      "explicacion": "Adjetivo que describe algo agradablemente frío, nuevo o puro.",
+      "explicacion": "Adjetivo que describe algo agradablemente frío, nuevo o revitalizante.",
       "ejemplo": "El mundo era verde y fresco."
-    },
-    {
-      "termino": "mágica",
-      "explicacion": "Adjetivo que se refiere a algo relacionado con la magia, o que es extraordinario y encantador.",
-      "ejemplo": "Es una mágica espera."
     }
   ],
   "sustantivos_clave": [
     {
-      "termino": "osezno",
-      "explicacion": "Sustantivo que significa 'oso joven' o 'cachorro de oso'.",
-      "ejemplo": "Un pequeño osezno llamado Brum."
+      "termino": "bosque",
+      "explicacion": "Lugar natural poblado de árboles y vegetación, escenario principal de la historia.",
+      "ejemplo": "en un bosque de colores vibrantes."
     },
     {
       "termino": "hibernación",
-      "explicacion": "Sustantivo que designa el estado de letargo invernal de algunos animales.",
-      "ejemplo": "\"Es hora de que te prepares para la hibernación.\""
-    },
-    {
-      "termino": "cueva",
-      "explicacion": "Sustantivo que nombra una cavidad natural en la roca, usada como refugio.",
-      "ejemplo": "Mamá Osa preparó la cueva para la siesta de invierno."
+      "explicacion": "Proceso de sueño prolongado durante el invierno para conservar energía.",
+      "ejemplo": "\"es hora de que te prepares para la hibernación.\""
     },
     {
       "termino": "aventuras",
-      "explicacion": "Sustantivo que se refiere a experiencias emocionantes, arriesgadas o inusuales.",
-      "ejemplo": "Soñarás con las aventuras de primavera."
+      "explicacion": "Experiencias emocionantes, arriesgadas o novedosas.",
+      "ejemplo": "soñarás con las aventuras de primavera."
     },
     {
       "termino": "energía",
-      "explicacion": "Sustantivo que significa fuerza, vitalidad o capacidad para actuar.",
+      "explicacion": "Capacidad para realizar actividades o esfuerzos; vitalidad.",
       "ejemplo": "El descanso es el alimento de la energía."
     },
     {
       "termino": "primavera",
-      "explicacion": "Sustantivo que nombra la estación del año que sigue al invierno.",
+      "explicacion": "Estación del año que sigue al invierno, asociada al renacimiento y la vitalidad.",
       "ejemplo": "\"¡Bienvenido a primavera!\""
+    },
+    {
+      "termino": "sueños",
+      "explicacion": "Imágenes, pensamientos o emociones que se experimentan durante el sueño.",
+      "ejemplo": "para tener las mejores aventuras, primero había que tener los mejores sueños."
     }
   ],
   "expresiones_idiomaticas": [
     {
       "termino": "arrugó la nariz",
-      "explicacion": "Expresión que describe el gesto de fruncir la nariz, mostrando desagrado, duda o desconfianza.",
-      "ejemplo": "Brum arrugó la nariz. \"¡Pero, Mamá! ¡No quiero hibernar!\""
+      "explicacion": "Expresión facial que indica descontento, desaprobación o disgusto.",
+      "ejemplo": "Brum arrugó la nariz."
     },
     {
-      "termino": "se le hizo cosquillas",
-      "explicacion": "Expresión que indica la sensación de cosquilleo, aquí provocada por un bostezo.",
-      "ejemplo": "Sintió un gran bostezo que le hizo cosquillas en la nariz."
+      "termino": "se hizo frío",
+      "explicacion": "Expresión que indica un cambio climático hacia temperaturas bajas.",
+      "ejemplo": "Cuando el otoño se hizo frío."
     },
     {
-      "termino": "con la voz pastosa",
-      "explicacion": "Expresión que describe una voz poco clara, lenta o espesa, típica del cansancio o sueño.",
-      "ejemplo": "Preguntó Brum, con la voz pastosa."
+      "termino": "se cubrió de nieve",
+      "explicacion": "Expresión que describe cómo algo queda completamente cubierto por la nieve.",
+      "ejemplo": "El bosque se cubrió de nieve."
     },
     {
-      "termino": "Día tras día",
-      "explicacion": "Expresión que significa 'cada día de forma consecutiva', indicando el paso continuo del tiempo.",
-      "ejemplo": "Día tras día, Brum durmió."
+      "termino": "lleno de energía",
+      "explicacion": "Expresión que significa tener mucha vitalidad, fuerza o dinamismo.",
+      "ejemplo": "¡Se sentía tan fuerte y lleno de energía!"
     }
   ],
   "funciones_comunicativas": [
     {
-      "termino": "Expresar deseo o gusto",
-      "explicacion": "Función para comunicar lo que a uno le gusta o le apetece hacer.",
-      "ejemplo": "A Brum le encantaba explorar. / ¡No quiero hibernar!"
-    },
-    {
       "termino": "Dar consejos o explicaciones",
-      "explicacion": "Función para aconsejar, instruir o aclarar el porqué de algo.",
-      "ejemplo": "\"No te preocupes... La hibernación no es solo dormir. Es una mágica espera.\""
+      "explicacion": "Acto de habla dirigido a orientar, aclarar o justificar una idea o acción.",
+      "ejemplo": "\"No te preocupes, mi pequeño explorador. La hibernación no es solo dormir. Es una mágica espera.\""
     },
     {
-      "termino": "Describir estados físicos y emociones",
-      "explicacion": "Función para expresar cómo se siente una persona física o anímicamente.",
-      "ejemplo": "Se sentía tan fuerte y lleno de energía. / Brum se sentó, exhausto."
+      "termino": "Expresar negación o desacuerdo",
+      "explicacion": "Acto de habla que muestra oposición, rechazo o contradicción ante una propuesta.",
+      "ejemplo": "\"¡Pero, Mamá! ¡Si duermo, me perderé los últimos copos de nieve y la Luna! ¡No quiero hibernar!\""
+    },
+    {
+      "termino": "Describir sensaciones o estados",
+      "explicacion": "Acto de habla que expresa percepciones físicas, emocionales o condiciones personales.",
+      "ejemplo": "Brum se sentó, exhausto. Su cuerpo se sentía pesado."
     }
   ],
   "palabras_clave": [
     "oso",
     "bosque",
     "explorar",
-    "otoño",
+    "hibernación",
+    "sueño",
+    "aventuras",
+    "primavera",
+    "energía",
+    "descanso",
+    "mágico",
     "frío",
-    "madre",
-    "dormir",
     "nieve",
     "luna",
-    "sueños",
-    "cansado",
+    "estrellas",
+    "cueva",
+    "mamá",
     "fuerza",
-    "descanso",
-    "crecer",
-    "primavera",
-    "aventura",
-    "energía",
-    "espera",
-    "sabio",
-    "aprender"
+    "campeón",
+    "siestas",
+    "espera"
   ],
   "narrativa": "Brum, el oso\nÉrase una vez, en un bosque de colores vibrantes, un pequeño osezno llamado Brum. A Brum le encantaba explorar, saltar sobre el musgo y contar las estrellas.\nCuando el otoño se hizo frío, Mamá Osa preparó la cueva para la siesta de invierno.\n\"Brum, cariño,\" le dijo Mamá Osa, \"es hora de que te prepares para la hibernación.\"\nBrum arrugó la nariz. \"¡Pero, Mamá! ¡Si duermo, me perderé los últimos copos de nieve y la Luna! ¡No quiero hibernar!\"\nMamá Osa lo abrazó. \"No te preocupes, mi pequeño explorador. La hibernación no es solo dormir. Es una mágica espera. Mientras duermes, tu cuerpo crecerá fuerte y soñarás con las aventuras de primavera.\"\nBrum no estaba convencido. Esa noche, mientras su madre roncaba, se escapó. Quería ver el bosque antes de que el sueño lo atrapara.\nSalió y vio la Luna brillante y las estrellas. Corrió y corrió, hasta que sintió un gran bostezo que le hizo cosquillas en la nariz. Se encontró con el Búho Sabio en un roble.\n\"¡Hola, señor Búho!\" susurró Brum. \"Usted no duerme. Yo tampoco quiero.\"\nEl Búho lo miró. \"Hoo-hoo. Yo soy nocturno, Brum. Pero hasta yo necesito siestas. El descanso es el alimento de la energía.\"\nBrum siguió caminando. Su cuerpo se sentía pesado. Luego se encontró con un pequeño Conejo.\n\"¡Hola, Conejo! ¿Por qué no duermes?\" preguntó Brum, con la voz pastosa.\nEl Conejo mordisqueó una hoja. \"Necesito mi sueño. Cuando duermo, me convierto en un Conejo-Cohete en mis sueños, y cuando despierto, puedo correr más rápido que nunca.\"\nBrum se sentó, exhausto. Se dio cuenta de que su aventura no era divertida si estaba cansado. Sus patas no querían correr y sus ojos no veían bien las estrellas. La idea de ser un \"Oso-Cohete\" en sus sueños empezó a sonar muy bien.\nRegresó a su cueva. Se acurrucó junto a Mamá Osa, sintiendo su calor. Cerró los ojos y, justo antes de dormirse, pensó: \"Voy a soñar que atrapo la Luna.\"\nDía tras día, Brum durmió. El bosque se cubrió de nieve, y él tuvo sueños maravillosos: que era un súper-héroe, que volaba y que nadaba en una piscina de miel.\nFinalmente, una mañana sintió un cosquilleo. Abrió los ojos. La cueva estaba llena de luz dorada.\n\"¡Mamá, Mamá!\" gritó.\nMamá Osa se despertó. \"¡Buenos días, mi pequeño explorador! ¡Bienvenido a primavera!\"\nBrum salió corriendo de la cueva. El mundo era verde y fresco. ¡Se sentía tan fuerte y lleno de energía! Podía correr más rápido y saltar más alto.\nHabía aprendido que la espera mágica del sueño no le quitó nada, sino que le dio la fuerza para disfrutar de todas las cosas maravillosas de la primavera.\nY así, Brum el osezno se convirtió en el campeón de las siestas, sabiendo que para tener las mejores aventuras, primero había que tener los mejores sueños."
 }

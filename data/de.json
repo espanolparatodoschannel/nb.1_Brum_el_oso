@@ -1,198 +1,193 @@
 {
   "meta": {
-    "titulo_historia": "Sprachliche Analyse",
+    "titulo_historia": "Linguistische Analyse",
     "autor": "Usuario",
-    "fecha": "2026-02-07"
+    "fecha": "2026-02-08"
   },
-  "titulo": "Sprachliche Analyse",
+  "titulo": "Linguistische Analyse",
   "conectores_logicos": [
     {
       "termino": "Als",
-      "explicacion": "Zeitliche Konjunktion, die eine spezifische Situation oder einen bestimmten Zeitpunkt einleitet.",
-      "ejemplo": "Als der Herbst kalt wurde, bereitete Mama Bärin die Höhle vor."
+      "explicacion": "Zeitliche Konjunktion, die den Zeitpunkt einer Handlung angibt.",
+      "ejemplo": "Als der Herbst kalt wurde, bereitete Mama Bär die Höhle vor."
     },
     {
       "termino": "Aber",
-      "explicacion": "Gegenüberstellende Konjunktion, die einen Einwand oder eine gegensätzliche Idee einleitet.",
-      "ejemplo": "\"Aber, Mama! Wenn ich schlafe, verpasse ich die letzten Schneeflocken!\""
+      "explicacion": "Konjunktion des Gegensatzes, die einen Einwand oder einen gegensätzlichen Gedanken einleitet.",
+      "ejemplo": "\"Aber, Mama! Wenn ich schlafe, verpasse ich die letzten Schneeflocken und den Mond!\""
     },
     {
       "termino": "Während",
-      "explicacion": "Zeitliche Konjunktion, die die Gleichzeitigkeit zweier Handlungen anzeigt.",
-      "ejemplo": "Während du schläfst, wird dein Körper stark wachsen."
-    },
-    {
-      "termino": "Dann",
-      "explicacion": "Zeitliche Konjunktion, die die Nachzeitigkeit in einer Ereignisfolge anzeigt.",
-      "ejemplo": "Brum ging weiter. Dann traf er auf einen kleinen Hasen."
+      "explicacion": "Konjunktion, die Gleichzeitigkeit zwischen zwei Handlungen ausdrückt.",
+      "ejemplo": "Während du schläfst, wird dein Körper stark werden."
     },
     {
       "termino": "Schließlich",
-      "explicacion": "Konjunktion, die das letzte Ereignis oder den Abschluss einer Abfolge markiert.",
+      "explicacion": "Konjunktion, die das Ende einer Abfolge oder den Abschluss eines Prozesses markiert.",
       "ejemplo": "Schließlich spürte er eines Morgens ein Kribbeln."
     },
     {
       "termino": "Und so",
-      "explicacion": "Abschließende Konjunktion, die das Vorhergehende zusammenfasst oder die Konsequenz daraus präsentiert.",
+      "explicacion": "Konjunktion, die eine Folge oder ein Ergebnis einer vorherigen Handlung anzeigt.",
       "ejemplo": "Und so wurde Brum, der kleine Bär, zum Meister der Nickerchen."
     }
   ],
   "verbos": [
     {
-      "termino": "liebte",
-      "explicacion": "Verb, das eine sehr starke Vorliebe oder Leidenschaft ausdrückt (vom Verb 'lieben' im Sinne von 'begeistert sein').",
-      "ejemplo": "Brum liebte es zu erkunden, über Moos zu springen und die Sterne zu zählen."
+      "termino": "erkunden",
+      "explicacion": "Verb, das bedeutet, einen unbekannten Ort zu erforschen oder zu durchstreifen.",
+      "ejemplo": "Brum liebte es, zu erkunden, über das Moos zu springen und die Sterne zu zählen."
     },
     {
-      "termino": "bereitete vor",
-      "explicacion": "Verb, das eine Handlung des Organisierens oder Vorbereitens für einen Zweck anzeigt.",
-      "ejemplo": "Mama Bärin bereitete die Höhle für den Winterschlaf vor."
+      "termino": "vorbereiten",
+      "explicacion": "Verb, das bedeutet, etwas für einen Zweck herzurichten oder bereitzustellen.",
+      "ejemplo": "Mama Bär bereitete die Höhle für den Winterschlaf vor."
     },
     {
-      "termino": "rumpfte",
-      "explicacion": "Verb, das die Geste beschreibt, etwas zu runzeln oder zusammenzuziehen, wie die Nase.",
-      "ejemplo": "Brum rumpfte die Nase."
+      "termino": "umarmen",
+      "explicacion": "Verb, das bedeutet, jemanden zum Zeichen von Zuneigung oder Trost in die Arme zu schließen.",
+      "ejemplo": "Mama Bär umarmte ihn."
     },
     {
-      "termino": "schlich sich davon",
-      "explicacion": "Reflexives Verb, das bedeutet, einen Ort ohne Erlaubnis oder heimlich zu verlassen.",
-      "ejemplo": "In dieser Nacht, während seine Mutter schnarchte, schlich er sich davon."
+      "termino": "ausreißen",
+      "explicacion": "Verb, das bedeutet, heimlich von einem Ort wegzulaufen oder zu fliehen.",
+      "ejemplo": "In dieser Nacht, während seine Mutter schnarchte, riss er aus."
     },
     {
-      "termino": "wurde klar",
-      "explicacion": "Verbale Wendung, die bedeutet, etwas zu verstehen oder zu bemerken.",
-      "ejemplo": "Ihm wurde klar, dass sein Abenteuer keinen Spaß machte, wenn er müde war."
+      "termino": "spüren",
+      "explicacion": "Verb, das bedeutet, körperliche oder emotionale Empfindungen wahrzunehmen.",
+      "ejemplo": "Er spürte ein großes Gähnen, das ihn in der Nase kitzelte."
     },
     {
-      "termino": "wurde",
-      "explicacion": "Reflexives Verb, das eine Veränderung oder Verwandlung in etwas oder jemanden anzeigt.",
-      "ejemplo": "Brum, der kleine Bär, wurde zum Meister der Nickerchen."
+      "termino": "lernen",
+      "explicacion": "Verb, das bedeutet, Wissen oder Verständnis durch Erfahrung zu erwerben.",
+      "ejemplo": "Er hatte gelernt, dass das magische Warten im Schlaf ihm nichts nahm."
     }
   ],
   "adjetivos": [
     {
-      "termino": "lebendige",
-      "explicacion": "Adjektiv, das etwas als voller Leben, Energie oder intensiver Farbe beschreibt.",
-      "ejemplo": "In einem Wald mit lebendigen Farben."
+      "termino": "leuchtend",
+      "explicacion": "Adjektiv, das intensive, lebendige und energiegeladene Farben beschreibt.",
+      "ejemplo": "Es war einmal, in einem Wald mit leuchtenden Farben."
     },
     {
-      "termino": "kleiner",
-      "explicacion": "Adjektiv, das geringe Größe oder junges Alter anzeigt.",
-      "ejemplo": "Ein kleiner Bär namens Brum."
+      "termino": "klein",
+      "explicacion": "Adjektiv, das geringe Größe oder Jugend angibt.",
+      "ejemplo": "ein kleiner Bär namens Brum."
     },
     {
-      "termino": "erschöpfter",
-      "explicacion": "Adjektiv, das einen Zustand extremer Müdigkeit beschreibt.",
+      "termino": "kalt",
+      "explicacion": "Adjektiv, das niedrige Temperatur beschreibt.",
+      "ejemplo": "Als der Herbst kalt wurde."
+    },
+    {
+      "termino": "erschöpft",
+      "explicacion": "Adjektiv, das bedeutet, sehr müde und energielos zu sein.",
       "ejemplo": "Brum setzte sich, erschöpft."
     },
     {
-      "termino": "wunderbare",
-      "explicacion": "Adjektiv, das etwas als außergewöhnlich, bewundernswert oder erstaunlich bewertet.",
-      "ejemplo": "Er hatte wunderbare Träume."
+      "termino": "wunderbar",
+      "explicacion": "Adjektiv, das etwas Außergewöhnliches, Bewundernswertes oder Erstaunliches beschreibt.",
+      "ejemplo": "er hatte wunderbare Träume."
     },
     {
-      "termino": "frischer",
-      "explicacion": "Adjektiv, das etwas als angenehm kühl, neu oder rein beschreibt.",
+      "termino": "frisch",
+      "explicacion": "Adjektiv, das etwas angenehm Kühles, Neues oder Belebendes beschreibt.",
       "ejemplo": "Die Welt war grün und frisch."
-    },
-    {
-      "termino": "magische",
-      "explicacion": "Adjektiv, das sich auf etwas bezieht, das mit Magie zu tun hat, oder das außergewöhnlich und bezaubernd ist.",
-      "ejemplo": "Es ist ein magisches Warten."
     }
   ],
   "sustantivos_clave": [
     {
-      "termino": "Bärenjunges",
-      "explicacion": "Substantiv, das 'junger Bär' oder 'Bärenjunges' bedeutet.",
-      "ejemplo": "Ein kleines Bärenjunges namens Brum."
+      "termino": "Wald",
+      "explicacion": "Natürlicher Ort mit vielen Bäumen und Pflanzen, Hauptschauplatz der Geschichte.",
+      "ejemplo": "in einem Wald mit leuchtenden Farben."
     },
     {
       "termino": "Winterschlaf",
-      "explicacion": "Substantiv, das den Zustand der Winterruhe einiger Tiere bezeichnet.",
+      "explicacion": "Längerer Schlafzustand im Winter, um Energie zu sparen.",
       "ejemplo": "\"Es ist Zeit, dass du dich auf den Winterschlaf vorbereitest.\""
     },
     {
-      "termino": "Höhle",
-      "explicacion": "Substantiv, das eine natürliche Höhlung im Fels bezeichnet, die als Unterschlupf dient.",
-      "ejemplo": "Mama Bärin bereitete die Höhle für den Winterschlaf vor."
-    },
-    {
       "termino": "Abenteuer",
-      "explicacion": "Substantiv, das sich auf aufregende, riskante oder ungewöhnliche Erfahrungen bezieht.",
-      "ejemplo": "Du wirst von den Abenteuern des Frühlings träumen."
+      "explicacion": "Aufregende, riskante oder neuartige Erlebnisse.",
+      "ejemplo": "du wirst von den Abenteuern des Frühlings träumen."
     },
     {
       "termino": "Energie",
-      "explicacion": "Substantiv, das Kraft, Vitalität oder Handlungsfähigkeit bedeutet.",
+      "explicacion": "Fähigkeit, Aktivitäten oder Anstrengungen auszuführen; Vitalität.",
       "ejemplo": "Ruhe ist die Nahrung der Energie."
     },
     {
       "termino": "Frühling",
-      "explicacion": "Substantiv, das die Jahreszeit nach dem Winter benennt.",
+      "explicacion": "Jahreszeit nach dem Winter, verbunden mit Wiedergeburt und Vitalität.",
       "ejemplo": "\"Willkommen im Frühling!\""
+    },
+    {
+      "termino": "Träume",
+      "explicacion": "Bilder, Gedanken oder Gefühle, die man während des Schlafs erlebt.",
+      "ejemplo": "um die besten Abenteuer zu haben, musste man zuerst die besten Träume haben."
     }
   ],
   "expresiones_idiomaticas": [
     {
       "termino": "rumpfte die Nase",
-      "explicacion": "Redewendung, die die Geste des Naserümpfens beschreibt und Missfallen, Zweifel oder Misstrauen zeigt.",
-      "ejemplo": "Brum rumpfte die Nase. \"Aber, Mama! Ich will keinen Winterschlaf halten!\""
+      "explicacion": "Gesichtsausdruck, der Unzufriedenheit, Missbilligung oder Ekel anzeigt.",
+      "ejemplo": "Brum rumpfte die Nase."
     },
     {
-      "termino": "kitzelte ihn",
-      "explicacion": "Redewendung, die das Gefühl des Kribbelns anzeigt, hier ausgelöst durch ein Gähnen.",
-      "ejemplo": "Er spürte ein großes Gähnen, das ihn in der Nase kitzelte."
+      "termino": "wurde kalt",
+      "explicacion": "Redewendung, die eine Wetteränderung hin zu niedrigen Temperaturen beschreibt.",
+      "ejemplo": "Als der Herbst kalt wurde."
     },
     {
-      "termino": "mit schwerer Zunge",
-      "explicacion": "Redewendung, die eine undeutliche, langsame oder schwere Stimme beschreibt, typisch für Müdigkeit oder Schläfrigkeit.",
-      "ejemplo": "Fragte Brum mit schwerer Zunge."
+      "termino": "bedeckte sich mit Schnee",
+      "explicacion": "Redewendung, die beschreibt, wie etwas vollständig von Schnee bedeckt wird.",
+      "ejemplo": "Der Wald bedeckte sich mit Schnee."
     },
     {
-      "termino": "Tag für Tag",
-      "explicacion": "Redewendung, die 'jeden Tag in Folge' bedeutet und den kontinuierlichen Zeitablauf anzeigt.",
-      "ejemplo": "Tag für Tag schlief Brum."
+      "termino": "voller Energie",
+      "explicacion": "Redewendung, die bedeutet, sehr viel Vitalität, Kraft oder Schwung zu haben.",
+      "ejemplo": "Er fühlte sich so stark und voller Energie!"
     }
   ],
   "funciones_comunicativas": [
     {
-      "termino": "Wunsch oder Vorliebe ausdrücken",
-      "explicacion": "Funktion, um mitzuteilen, was einem gefällt oder was man gerne tun möchte.",
-      "ejemplo": "Brum liebte es zu erkunden. / Ich will keinen Winterschlaf halten!"
-    },
-    {
       "termino": "Ratschläge oder Erklärungen geben",
-      "explicacion": "Funktion, um zu raten, anzuweisen oder den Grund für etwas zu erläutern.",
-      "ejemplo": "\"Mach dir keine Sorgen... Der Winterschlaf ist nicht nur Schlafen. Es ist ein magisches Warten.\""
+      "explicacion": "Sprechakt, der darauf abzielt, eine Idee oder Handlung zu erläutern, zu begründen oder anzuleiten.",
+      "ejemplo": "\"Mach dir keine Sorgen, mein kleiner Entdecker. Winterschlaf ist nicht nur Schlafen. Es ist ein magisches Warten.\""
     },
     {
-      "termino": "Körperliche Zustände und Emotionen beschreiben",
-      "explicacion": "Funktion, um auszudrücken, wie sich eine Person körperlich oder seelisch fühlt.",
-      "ejemplo": "Er fühlte sich so stark und voller Energie. / Brum setzte sich, erschöpft."
+      "termino": "Ablehnung oder Widerspruch ausdrücken",
+      "explicacion": "Sprechakt, der Ablehnung, Widerspruch oder Einwand gegenüber einem Vorschlag zeigt.",
+      "ejemplo": "\"Aber, Mama! Wenn ich schlafe, verpasse ich die letzten Schneeflocken und den Mond! Ich will keinen Winterschlaf halten!\""
+    },
+    {
+      "termino": "Empfindungen oder Zustände beschreiben",
+      "explicacion": "Sprechakt, der körperliche oder emotionale Wahrnehmungen oder persönliche Zustände ausdrückt.",
+      "ejemplo": "Brum setzte sich, erschöpft. Sein Körper fühlte sich schwer an."
     }
   ],
   "palabras_clave": [
     "Bär",
     "Wald",
     "erkunden",
-    "Herbst",
+    "Winterschlaf",
+    "Schlaf",
+    "Abenteuer",
+    "Frühling",
+    "Energie",
+    "Ruhe",
+    "magisch",
     "kalt",
-    "Mutter",
-    "schlafen",
     "Schnee",
     "Mond",
-    "Träume",
-    "müde",
+    "Sterne",
+    "Höhle",
+    "Mama",
     "Kraft",
-    "Ruhe",
-    "wachsen",
-    "Frühling",
-    "Abenteuer",
-    "Energie",
-    "Warten",
-    "weise",
-    "lernen"
+    "Meister",
+    "Nickerchen",
+    "Warten"
   ],
-  "narrativa": "Brum, el oso\nÉrase una vez, en un bosque de colores vibrantes, un pequeño osezno llamado Brum. A Brum le encantaba explorar, saltar sobre el musgo y contar las estrellas.\nCuando el otoño se hizo frío, Mamá Osa preparó la cueva para la siesta de invierno.\n\"Brum, cariño,\" le dijo Mamá Osa, \"es hora de que te prepares para la hibernación.\"\nBrum arrugó la nariz. \"¡Pero, Mamá! ¡Si duermo, me perderé los últimos copos de nieve y la Luna! ¡No quiero hibernar!\"\nMamá Osa lo abrazó. \"No te preocupes, mi pequeño explorador. La hibernación no es solo dormir. Es una mágica espera. Mientras duermes, tu cuerpo crecerá fuerte y soñarás con las aventuras de primavera.\"\nBrum no estaba convencido. Esa noche, mientras su madre roncaba, se escapó. Quería ver el bosque antes de que el sueño lo atrapara.\nSalió y vio la Luna brillante y las estrellas. Corrió y corrió, hasta que sintió un gran bostezo que le hizo cosquillas en la nariz. Se encontró con el Búho Sabio en un roble.\n\"¡Hola, señor Búho!\" susurró Brum. \"Usted no duerme. Yo tampoco quiero.\"\nEl Búho lo miró. \"Hoo-hoo. Yo soy nocturno, Brum. Pero hasta yo necesito siestas. El descanso es el alimento de la energía.\"\nBrum siguió caminando. Su cuerpo se sentía pesado. Luego se encontró con un pequeño Conejo.\n\"¡Hola, Conejo! ¿Por qué no duermes?\" preguntó Brum, con la voz pastosa.\nEl Conejo mordisqueó una hoja. \"Necesito mi sueño. Cuando duermo, me convierto en un Conejo-Cohete en mis sueños, y cuando despierto, puedo correr más rápido que nunca.\"\nBrum se sentó, exhausto. Se dio cuenta de que su aventura no era divertida si estaba cansado. Sus patas no querían correr y sus ojos no veían bien las estrellas. La idea de ser un \"Oso-Cohete\" en sus sueños empezó a sonar muy bien.\nRegresó a su cueva. Se acurrucó junto a Mamá Osa, sintiendo su calor. Cerró los ojos y, justo antes de dormirse, pensó: \"Voy a soñar que atrapo la Luna.\"\nDía tras día, Brum durmió. El bosque se cubrió de nieve, y él tuvo sueños maravillosos: que era un súper-héroe, que volaba y que nadaba en una piscina de miel.\nFinalmente, una mañana sintió un cosquilleo. Abrió los ojos. La cueva estaba llena de luz dorada.\n\"¡Mamá, Mamá!\" gritó.\nMamá Osa se despertó. \"¡Buenos días, mi pequeño explorador! ¡Bienvenido a primavera!\"\nBrum salió corriendo de la cueva. El mundo era verde y fresco. ¡Se sentía tan fuerte y lleno de energía! Podía correr más rápido y saltar más alto.\nHabía aprendido que la espera mágica del sueño nicht le quitó nada, sino que le dio la fuerza para disfrutar de todas las cosas maravillosas de la primavera.\nY así, Brum el osezno se convirtió en el campeón de las siestas, sabiendo que para tener las mejores aventuras, primero había que tener los mejores sueños."
+  "narrativa": "Brum, el oso\nÉrase una vez, en un bosque de colores vibrantes, un pequeño osezno llamado Brum. A Brum le encantaba explorar, saltar sobre el musgo y contar las estrellas.\nCuando el otoño se hizo frío, Mamá Osa preparó la cueva para la siesta de invierno.\n\"Brum, cariño,\" le dijo Mamá Osa, \"es hora de que te prepares para la hibernación.\"\nBrum arrugó la nariz. \"¡Pero, Mamá! ¡Si duermo, me perderé los últimos copos de nieve y la Luna! ¡No quiero hibernar!\"\nMamá Osa lo abrazó. \"No te preocupes, mi pequeño explorador. La hibernación no es solo dormir. Es una mágica espera. Mientras duermes, tu cuerpo crecerá fuerte y soñarás con las aventuras de primavera.\"\nBrum no estaba convencido. Esa noche, mientras su madre roncaba, se escapó. Quería ver el bosque antes de que el sueño lo atrapara.\nSalió y vio la Luna brillante y las estrellas. Corrió y corrió, hasta que sintió un gran bostezo que le hizo cosquillas en la nariz. Se encontró con el Búho Sabio en un roble.\n\"¡Hola, señor Búho!\" susurró Brum. \"Usted no duerme. Yo tampoco quiero.\"\nEl Búho lo miró. \"Hoo-hoo. Yo soy nocturno, Brum. Pero hasta yo necesito siestas. El descanso es el alimento de la energía.\"\nBrum siguió caminando. Su cuerpo se sentía pesado. Luego se encontró con un pequeño Conejo.\n\"¡Hola, Conejo! ¿Por qué no duermes?\" preguntó Brum, con la voz pastosa.\nEl Conejo mordisqueó una hoja. \"Necesito mi sueño. Cuando duermo, me convierto en un Conejo-Cohete en mis sueños, y cuando despierto, puedo correr más rápido que nunca.\"\nBrum se sentó, exhausto. Se dio cuenta de que su aventura no era divertida si estaba cansado. Sus patas no querían correr y sus ojos no veían bien las estrellas. La idea de ser un \"Oso-Cohete\" en sus sueños empezó a sonar muy bien.\nRegresó a su cueva. Se acurrucó junto a Mamá Osa, sintiendo su calor. Cerró los ojos y, justo antes de dormirse, pensó: \"Voy a soñar que atrapo la Luna.\"\nDía tras día, Brum durmió. El bosque se cubrió de nieve, y él tuvo sueños maravillosos: que era un súper-héroe, que volaba y que nadaba en una piscina de miel.\nFinalmente, una mañana sintió un cosquilleo. Abrió los ojos. La cueva estaba llena de luz dorada.\n\"¡Mamá, Mamá!\" gritó.\nMamá Osa se despertó. \"¡Buenos días, mi pequeño explorador! ¡Bienvenido a primavera!\"\nBrum salió corriendo de la cueva. El mundo era verde y fresco. ¡Se sentía tan fuerte y lleno de energía! Podía correr más rápido y saltar más alto.\nHabía aprendido que la espera mágica del sueño no le quitó nada, sino que le dio la fuerza para disfrutar de todas las cosas maravillosas de la primavera.\nY así, Brum el osezno se convirtió en el campeón de las siestas, sabiendo que para tener las mejores aventuras, primero había que tener los mejores sueños."
 }

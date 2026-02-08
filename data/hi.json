@@ -1,198 +1,193 @@
 {
   "meta": {
-    "titulo_historia": "भाषाई विश्लेषण",
+    "titulo_historia": "Análisis Lingüístico",
     "autor": "Usuario",
-    "fecha": "2026-02-07"
+    "fecha": "2026-02-08"
   },
-  "titulo": "भाषाई विश्लेषण",
+  "titulo": "Análisis Lingüístico",
   "conectores_logicos": [
     {
       "termino": "जब",
-      "explicacion": "एक कालिक संयोजक जो एक विशिष्ट स्थिति या क्षण का परिचय देता है।",
-      "ejemplo": "जब शरद ऋतु ठंडी हो गई, तो माँ भालू ने गुफा तैयार की।"
+      "explicacion": "एक समय का जोड़ने वाला शब्द जो बताता है कि कोई काम कब हुआ।",
+      "ejemplo": "जब पतझड़ ठंडा हो गया, तो माँ भालू ने गुफा तैयार की।"
     },
     {
       "termino": "लेकिन",
-      "explicacion": "एक विरोधाभास दर्शाने वाला संयोजक जो आपत्ति या विपरीत विचार प्रस्तुत करता है।",
-      "ejemplo": "\"लेकिन, माँ! अगर मैं सो गया, तो बर्फ के आखिरी टुकड़ों को देखने से चूक जाऊँगा!\""
+      "explicacion": "एक विरोध या आपत्ति दिखाने वाला जोड़ने वाला शब्द।",
+      "ejemplo": "\"लेकिन, माँ! अगर मैं सो गया, तो आखिरी बर्फ के टुकड़े और चाँद देखने से चूक जाऊँगा!\""
     },
     {
       "termino": "जबकि",
-      "explicacion": "एक कालिक संयोजक जो दो क्रियाओं की समकालिकता दर्शाता है।",
+      "explicacion": "एक जोड़ने वाला शब्द जो दो कामों के एक साथ होने को बताता है।",
       "ejemplo": "जबकि तुम सोते हो, तुम्हारा शरीर मजबूत बनेगा।"
     },
     {
-      "termino": "फिर",
-      "explicacion": "एक कालिक संयोजक जो घटनाओं के क्रम में बाद के समय को दर्शाता है।",
-      "ejemplo": "ब्रूम चलता रहा। फिर उसकी मुलाकात एक छोटे से खरगोश से हुई।"
-    },
-    {
-      "termino": "अंततः",
-      "explicacion": "एक संयोजक जो किसी क्रम की अंतिम घटना या निष्कर्ष को चिह्नित करता है।",
-      "ejemplo": "अंततः, एक सुबह उसे गुदगुदी महसूस हुई।"
+      "termino": "आखिरकार",
+      "explicacion": "एक जोड़ने वाला शब्द जो किसी प्रक्रिया के अंत या नतीजे को दिखाता है।",
+      "ejemplo": "आखिरकार, एक सुबह उसे गुदगुदी महसूस हुई।"
     },
     {
       "termino": "और इस तरह",
-      "explicacion": "एक निष्कर्षात्मक संयोजक जो पूर्ववर्ती बातों का सारांश देता है या उनका परिणाम प्रस्तुत करता है।",
-      "ejemplo": "और इस तरह, भालू शावक ब्रूम झपकियों का चैंपियन बन गया।"
+      "explicacion": "एक जोड़ने वाला शब्द जो पहले के काम का नतीजा या परिणाम दिखाता है।",
+      "ejemplo": "और इस तरह, छोटा भालू ब्रूम झपकियों का चैंपियन बन गया।"
     }
   ],
   "verbos": [
     {
-      "termino": "बहुत पसंद था",
-      "explicacion": "एक क्रिया जो बहुत तेज़ पसंद या शौक व्यक्त करती है ('प्यार करना' क्रिया से)।",
-      "ejemplo": "ब्रूम को खोजबीन करना, काई पर कूदना और तारे गिनना बहुत पसंद था।"
+      "termino": "खोज करना",
+      "explicacion": "एक ऐसी जगह को जानना या घूमना जो पहले से न पता हो।",
+      "ejemplo": "ब्रूम को खोज करना, काई पर कूदना और तारे गिनना बहुत पसंद था।"
     },
     {
-      "termino": "तैयार की",
-      "explicacion": "एक क्रिया जो किसी उद्देश्य के लिए कुछ व्यवस्थित या तैयार करने की क्रिया दर्शाती है।",
-      "ejemplo": "माँ भालू ने शीतकालीन झपकी के लिए गुफा तैयार की।"
+      "termino": "तैयार करना",
+      "explicacion": "किसी काम के लिए किसी चीज़ को व्यवस्थित करना या ठीक करना।",
+      "ejemplo": "माँ भालू ने सर्दियों की झपकी के लिए गुफा तैयार की।"
     },
     {
-      "termino": "सिकोड़ ली",
-      "explicacion": "एक क्रिया जो किसी चीज़, जैसे नाक, को मोड़ने या सिकोड़ने के भाव का वर्णन करती है।",
-      "ejemplo": "ब्रूम ने अपनी नाक सिकोड़ ली।"
+      "termino": "गले लगाना",
+      "explicacion": "प्यार या दिलासा देने के लिए बाँहों में भर लेना।",
+      "ejemplo": "माँ भालू ने उसे गले लगा लिया।"
     },
     {
-      "termino": "भाग निकला",
-      "explicacion": "एक सर्वनामी क्रिया जिसका अर्थ है बिना अनुमति या चोरी से किसी स्थान से निकल जाना या चले जाना।",
-      "ejemplo": "उस रात, जब उसकी माँ खर्राटे ले रही थी, वह भाग निकला।"
+      "termino": "भाग जाना",
+      "explicacion": "चुपके से कहीं से निकल जाना या दूर हो जाना।",
+      "ejemplo": "उस रात, जब उसकी माँ खर्राटे ले रही थी, वह भाग गया।"
     },
     {
-      "termino": "एहसास हुआ",
-      "explicacion": "एक क्रियात्मक अभिव्यक्ति जिसका अर्थ है कुछ समझना या भान होना।",
-      "ejemplo": "उसे एहसास हुआ कि अगर वह थका हुआ है तो उसका साहसिक कार्य मज़ेदार नहीं है।"
+      "termino": "महसूस करना",
+      "explicacion": "शारीरिक या भावनात्मक अनुभवों को समझना।",
+      "ejemplo": "उसे एक बड़ी जम्हाई महसूस हुई जिससे उसकी नाक में गुदगुदी हुई।"
     },
     {
-      "termino": "बन गया",
-      "explicacion": "एक सर्वनामी क्रिया जो किसी चीज़ या व्यक्ति में परिवर्तन या रूपांतरण दर्शाती है।",
-      "ejemplo": "भालू शावक ब्रूम झपकियों का चैंपियन बन गया।"
+      "termino": "सीखना",
+      "explicacion": "अनुभव से ज्ञान या समझ हासिल करना।",
+      "ejemplo": "उसने सीख लिया था कि नींद की जादुई प्रतीक्षा ने उससे कुछ नहीं छीना।"
     }
   ],
   "adjetivos": [
     {
-      "termino": "जीवंत",
-      "explicacion": "एक विशेषण जो किसी ऐसी चीज़ का वर्णन करता है जो जीवन, ऊर्जा या तीव्र रंग से भरी हो।",
-      "ejemplo": "जीवंत रंगों के एक जंगल में।"
+      "termino": "चमकीले",
+      "explicacion": "तेज़, जीवंत और ऊर्जा से भरे रंगों का वर्णन करने वाला शब्द।",
+      "ejemplo": "एक बार की बात है, चमकीले रंगों के एक जंगल में।"
     },
     {
       "termino": "छोटा",
-      "explicacion": "एक विशेषण जो छोटे आकार या कम उम्र को दर्शाता है।",
-      "ejemplo": "ब्रूम नाम का एक छोटा भालू शावक।"
+      "explicacion": "छोटे आकार या कम उम्र को दिखाने वाला शब्द।",
+      "ejemplo": "ब्रूम नाम का एक छोटा भालू का बच्चा।"
+    },
+    {
+      "termino": "ठंडा",
+      "explicacion": "कम तापमान का वर्णन करने वाला शब्द।",
+      "ejemplo": "जब पतझड़ ठंडा हो गया।"
     },
     {
       "termino": "थका हुआ",
-      "explicacion": "एक विशेषण जो अत्यधिक थकान की स्थिति का वर्णन करता है।",
+      "explicacion": "बहुत ज्यादा थकान, बिना ऊर्जा के होने का मतलब बताने वाला शब्द।",
       "ejemplo": "ब्रूम थका हुआ बैठ गया।"
     },
     {
       "termino": "अद्भुत",
-      "explicacion": "एक विशेषण जो किसी चीज़ को असाधारण, प्रशंसनीय या आश्चर्यजनक के रूप में योग्य ठहराता है।",
+      "explicacion": "किसी असाधारण, प्रशंसनीय या हैरान कर देने वाली चीज़ का वर्णन करने वाला शब्द।",
       "ejemplo": "उसने अद्भुत सपने देखे।"
     },
     {
       "termino": "ताज़ा",
-      "explicacion": "एक विशेषण जो किसी सुखद ठंडी, नई या शुद्ध चीज़ का वर्णन करता है।",
+      "explicacion": "किसी सुहावने ठंडे, नए या तरोताजा कर देने वाली चीज़ का वर्णन करने वाला शब्द।",
       "ejemplo": "दुनिया हरी-भरी और ताज़ा थी।"
-    },
-    {
-      "termino": "जादुई",
-      "explicacion": "एक विशेषण जो किसी ऐसी चीज़ को संदर्भित करता है जो जादू से संबंधित है, या जो असाधारण और मनमोहक है।",
-      "ejemplo": "यह एक जादुई प्रतीक्षा है।"
     }
   ],
   "sustantivos_clave": [
     {
-      "termino": "भालू शावक",
-      "explicacion": "एक संज्ञा जिसका अर्थ है 'युवा भालू' या 'भालू का बच्चा'।",
-      "ejemplo": "ब्रूम नाम का एक छोटा भालू शावक।"
+      "termino": "जंगल",
+      "explicacion": "पेड़ों और पौधों से भरी प्राकृतिक जगह, कहानी का मुख्य स्थान।",
+      "ejemplo": "चमकीले रंगों के एक जंगल में।"
     },
     {
       "termino": "शीतनिद्रा",
-      "explicacion": "एक संज्ञा जो कुछ जानवरों की शीतकालीन सुस्ती की अवस्था को नामित करती है।",
-      "ejemplo": "\"अब तुम्हारे लिए शीतनिद्रा की तैयारी करने का समय आ गया है।\""
+      "explicacion": "सर्दियों में ऊर्जा बचाने के लिए लंबी नींद की प्रक्रिया।",
+      "ejemplo": "\"तुम्हारे लिए शीतनिद्रा की तैयारी का समय आ गया है।\""
     },
     {
-      "termino": "गुफा",
-      "explicacion": "एक संज्ञा जो चट्टान में एक प्राकृतिक गुहा को नाम देती है, जिसका उपयोग आश्रय के रूप में किया जाता है।",
-      "ejemplo": "माँ भालू ने शीतकालीन झपकी के लिए गुफा तैयार की।"
-    },
-    {
-      "termino": "साहसिक कार्य",
-      "explicacion": "एक संज्ञा जो रोमांचक, जोखिम भरे या असामान्य अनुभवों को संदर्भित करती है।",
-      "ejemplo": "तुम वसंत के साहसिक कार्यों के सपने देखोगे।"
+      "termino": "साहसिक कारनामे",
+      "explicacion": "रोमांचक, जोखिम भरे या नए अनुभव।",
+      "ejemplo": "तुम बसंत के साहसिक कारनामों के सपने देखोगे।"
     },
     {
       "termino": "ऊर्जा",
-      "explicacion": "एक संज्ञा जिसका अर्थ है शक्ति, जीवन शक्ति या कार्य करने की क्षमता।",
-      "ejemplo": "आराम ऊर्जा का आहार है।"
+      "explicacion": "काम करने या मेहनत करने की क्षमता; जीवन शक्ति।",
+      "ejemplo": "आराम ऊर्जा का भोजन है।"
     },
     {
-      "termino": "वसंत",
-      "explicacion": "एक संज्ञा जो सर्दियों के बाद आने वाली ऋतु का नाम देती है।",
-      "ejemplo": "\"वसंत में आपका स्वागत है!\""
+      "termino": "बसंत",
+      "explicacion": "सर्दी के बाद आने वाला मौसम, नई शुरुआत और जीवन शक्ति से जुड़ा हुआ।",
+      "ejemplo": "\"बसंत में तुम्हारा स्वागत है!\""
+    },
+    {
+      "termino": "सपने",
+      "explicacion": "नींद के दौरान देखे जाने वाले चित्र, विचार या भावनाएँ।",
+      "ejemplo": "सबसे अच्छे साहसिक कारनामों के लिए, पहले सबसे अच्छे सपने देखने ज़रूरी हैं।"
     }
   ],
   "expresiones_idiomaticas": [
     {
       "termino": "नाक सिकोड़ ली",
-      "explicacion": "एक अभिव्यक्ति जो नाक सिकोड़ने के भाव का वर्णन करती है, जो अप्रसन्नता, संदेह या अविश्वास दर्शाता है।",
-      "ejemplo": "ब्रूम ने अपनी नाक सिकोड़ ली। \"लेकिन, माँ! मैं शीतनिद्रा में नहीं जाना चाहता!\""
+      "explicacion": "चेहरे का एक भाव जो नाखुशी, असहमति या नापसंदगी दिखाता है।",
+      "ejemplo": "ब्रूम ने नाक सिकोड़ ली।"
     },
     {
-      "termino": "गुदगुदी हुई",
-      "explicacion": "एक अभिव्यक्ति जो गुदगुदी की अनुभूति को दर्शाती है, यहाँ एक जम्हाई के कारण हुई।",
-      "ejemplo": "उसे एक बड़ी जम्हाई आई जिससे उसकी नाक में गुदगुदी हुई।"
+      "termino": "ठंडा हो गया",
+      "explicacion": "एक कहावत जो मौसम के कम तापमान की तरफ बदलाव को दिखाती है।",
+      "ejemplo": "जब पतझड़ ठंडा हो गया।"
     },
     {
-      "termino": "धीमी आवाज़ में",
-      "explicacion": "एक अभिव्यक्ति जो एक अस्पष्ट, धीमी या गाढ़ी आवाज़ का वर्णन करती है, जो थकान या नींद की विशिष्ट होती है।",
-      "ejemplo": "ब्रूम ने धीमी आवाज़ में पूछा।"
+      "termino": "बर्फ से ढक गया",
+      "explicacion": "एक कहावत जो बताती है कि कैसे कोई चीज़ पूरी तरह बर्फ से भर गई।",
+      "ejemplo": "जंगल बर्फ से ढक गया।"
     },
     {
-      "termino": "दिन ब दिन",
-      "explicacion": "एक अभिव्यक्ति जिसका अर्थ है 'लगातार हर दिन', जो समय के निरंतर बीतने को दर्शाती है।",
-      "ejemplo": "दिन ब दिन, ब्रूम सोता रहा।"
+      "termino": "ऊर्जा से भरपूर",
+      "explicacion": "एक कहावत जिसका मतलब है बहुत जीवन शक्ति, ताकत या फुर्ती होना।",
+      "ejemplo": "वह इतना ताकतवर और ऊर्जा से भरपूर महसूस कर रहा था!"
     }
   ],
   "funciones_comunicativas": [
     {
-      "termino": "इच्छा या पसंद व्यक्त करना",
-      "explicacion": "यह बताने के लिए एक कार्य कि किसी को क्या पसंद है या करने का मन करता है।",
-      "ejemplo": "ब्रूम को खोजबीन करना बहुत पसंद था। / मैं शीतनिद्रा में नहीं जाना चाहता!"
+      "termino": "सलाह या समझाना",
+      "explicacion": "बोलने का एक तरीका जिसमें किसी विचार या काम को समझाने, स्पष्ट करने या उसकी वजह बताने के लिए कहा जाता है।",
+      "ejemplo": "\"चिंता मत करो, मेरे छोटे खोजी। शीतनिद्रा सिर्फ सोना नहीं है। यह एक जादुई इंतज़ार है।\""
     },
     {
-      "termino": "सलाह या स्पष्टीकरण देना",
-      "explicacion": "सलाह देने, निर्देश देने या किसी बात के कारण स्पष्ट करने के लिए एक कार्य।",
-      "ejemplo": "\"चिंता मत करो... शीतनिद्रा सिर्फ सोना नहीं है। यह एक जादुई प्रतीक्षा है।\""
+      "termino": "मना करना या असहमति जताना",
+      "explicacion": "बोलने का एक तरीका जो किसी सुझाव के सामने विरोध, इनकार या अलग राय दिखाता है।",
+      "ejemplo": "\"लेकिन, माँ! अगर मैं सो गया, तो आखिरी बर्फ के टुकड़े और चाँद देखने से चूक जाऊँगा! मैं शीतनिद्रा नहीं करना चाहता!\""
     },
     {
-      "termino": "शारीरिक अवस्थाओं और भावनाओं का वर्णन करना",
-      "explicacion": "यह व्यक्त करने के लिए एक कार्य कि कोई व्यक्ति शारीरिक या मानसिक रूप से कैसा महसूस कर रहा है।",
-      "ejemplo": "वह इतना मजबूत और ऊर्जा से भरा हुआ महसूस कर रहा था। / ब्रूम थका हुआ बैठ गया।"
+      "termino": "अनुभव या हालत बताना",
+      "explicacion": "बोलने का एक तरीका जो शारीरिक, भावनात्मक अनुभव या व्यक्तिगत हालत को बताता है।",
+      "ejemplo": "ब्रूम थका हुआ बैठ गया। उसका शरीर भारी लग रहा था।"
     }
   ],
   "palabras_clave": [
     "भालू",
     "जंगल",
-    "खोजबीन करना",
-    "शरद ऋतु",
-    "ठंड",
-    "माँ",
-    "सोना",
+    "खोज करना",
+    "शीतनिद्रा",
+    "नींद",
+    "साहसिक कारनामे",
+    "बसंत",
+    "ऊर्जा",
+    "आराम",
+    "जादुई",
+    "ठंडा",
     "बर्फ",
     "चाँद",
-    "सपने",
-    "थका हुआ",
+    "तारे",
+    "गुफा",
+    "माँ",
     "ताकत",
-    "आराम",
-    "बढ़ना",
-    "वसंत",
-    "साहसिक कार्य",
-    "ऊर्जा",
-    "प्रतीक्षा",
-    "बुद्धिमान",
-    "सीखना"
+    "चैंपियन",
+    "झपकियाँ",
+    "इंतज़ार"
   ],
   "narrativa": "Brum, el oso\nÉrase una vez, en un bosque de colores vibrantes, un pequeño osezno llamado Brum. A Brum le encantaba explorar, saltar sobre el musgo y contar las estrellas.\nCuando el otoño se hizo frío, Mamá Osa preparó la cueva para la siesta de invierno.\n\"Brum, cariño,\" le dijo Mamá Osa, \"es hora de que te prepares para la hibernación.\"\nBrum arrugó la nariz. \"¡Pero, Mamá! ¡Si duermo, me perderé los últimos copos de nieve y la Luna! ¡No quiero hibernar!\"\nMamá Osa lo abrazó. \"No te preocupes, mi pequeño explorador. La hibernación no es solo dormir. Es una mágica espera. Mientras duermes, tu cuerpo crecerá fuerte y soñarás con las aventuras de primavera.\"\nBrum no estaba convencido. Esa noche, mientras su madre roncaba, se escapó. Quería ver el bosque antes de que el sueño lo atrapara.\nSalió y vio la Luna brillante y las estrellas. Corrió y corrió, hasta que sintió un gran bostezo que le hizo cosquillas en la nariz. Se encontró con el Búho Sabio en un roble.\n\"¡Hola, señor Búho!\" susurró Brum. \"Usted no duerme. Yo tampoco quiero.\"\nEl Búho lo miró. \"Hoo-hoo. Yo soy nocturno, Brum. Pero hasta yo necesito siestas. El descanso es el alimento de la energía.\"\nBrum siguió caminando. Su cuerpo se sentía pesado. Luego se encontró con un pequeño Conejo.\n\"¡Hola, Conejo! ¿Por qué no duermes?\" preguntó Brum, con la voz pastosa.\nEl Conejo mordisqueó una hoja. \"Necesito mi sueño. Cuando duermo, me convierto en un Conejo-Cohete en mis sueños, y cuando despierto, puedo correr más rápido que nunca.\"\nBrum se sentó, exhausto. Se dio cuenta de que su aventura no era divertida si estaba cansado. Sus patas no querían correr y sus ojos no veían bien las estrellas. La idea de ser un \"Oso-Cohete\" en sus sueños empezó a sonar muy bien.\nRegresó a su cueva. Se acurrucó junto a Mamá Osa, sintiendo su calor. Cerró los ojos y, justo antes de dormirse, pensó: \"Voy a soñar que atrapo la Luna.\"\nDía tras día, Brum durmió. El bosque se cubrió de nieve, y él tuvo sueños maravillosos: que era un súper-héroe, que volaba y que nadaba en una piscina de miel.\nFinalmente, una mañana sintió un cosquilleo. Abrió los ojos. La cueva estaba llena de luz dorada.\n\"¡Mamá, Mamá!\" gritó.\nMamá Osa se despertó. \"¡Buenos días, mi pequeño explorador! ¡Bienvenido a primavera!\"\nBrum salió corriendo de la cueva. El mundo era verde y fresco. ¡Se sentía tan fuerte y lleno de energía! Podía correr más rápido y saltar más alto.\nHabía aprendido que la espera mágica del sueño no le quitó nada, sino que le dio la fuerza para disfrutar de todas las cosas maravillosas de la primavera.\nY así, Brum el osezno se convirtió en el campeón de las siestas, sabiendo que para tener las mejores aventuras, primero había que tener los mejores sueños."
 }

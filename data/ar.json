@@ -1,198 +1,193 @@
 {
   "meta": {
-    "titulo_historia": "التحليل اللغوي",
+    "titulo_historia": "Análisis Lingüístico",
     "autor": "Usuario",
-    "fecha": "2026-02-07"
+    "fecha": "2026-02-08"
   },
-  "titulo": "التحليل اللغوي",
+  "titulo": "Análisis Lingüístico",
   "conectores_logicos": [
     {
-      "termino": "عندما",
-      "explicacion": "أداة ربط زمنية تقدم موقفًا أو لحظة محددة.",
-      "ejemplo": "عندما أصبح الخريف باردًا، أعدت الدبة الأم الكهف."
+      "termino": "لَمَّا",
+      "explicacion": "رابط زمني بيّن الوقت اللي بتحصل فيه حاجة.",
+      "ejemplo": "لَمَّا الْخَرِيفِ صَارْ بَارِد، مَامَا دُبَّةْ حَضَّرَتِ الْكَهْف."
     },
     {
-      "termino": "لكن",
-      "explicacion": "أداة ربط تعارضية تقدم اعتراضًا أو فكرة معاكسة.",
-      "ejemplo": "\"لكن، يا أمي! إذا نمت، سأفوت آخر رقاقات الثلج!\""
+      "termino": "بَسْ",
+      "explicacion": "رابط تعارض بيّدخل فكرة معاكسة أو اعتراض.",
+      "ejemplo": "\"بَسْ يَا مَامَا! إِنْ كُنْت نَامِت، حَتَفُوتْنِي آخِر قُطَعِ الثَّلْج!\""
     },
     {
-      "termino": "بينما",
-      "explicacion": "أداة ربط زمنية تشير إلى تزامن فعلين.",
-      "ejemplo": "بينما تنام، سينمو جسمك قويًا."
+      "termino": "وِهْنْتَ",
+      "explicacion": "رابط بيّعبِّر عن إن حاجتين بتحصلوا ف نفس الوقت.",
+      "ejemplo": "وِهْنْتَ إِنْتَ نَايِم، جِسْمَك حَيْنْمُو قَوِي."
     },
     {
-      "termino": "ثم",
-      "explicacion": "أداة ربط زمنية تشير إلى تتابع الأحداث.",
-      "ejemplo": "استمر برم في المشي. ثم التقى بأرنب صغير."
+      "termino": "فِي الْآخِر",
+      "explicacion": "رابط بيّشير لِنهاية سلسلة أحداث أو خاتمة عملية.",
+      "ejemplo": "فِي الْآخِر، فِي صُبْحِ يَوْم حَسَّ بِدَغْدَغَة."
     },
     {
-      "termino": "أخيرًا",
-      "explicacion": "أداة ربط تشير إلى الحدث الأخير أو خاتمة سلسلة من الأحداث.",
-      "ejemplo": "أخيرًا، في أحد الأيام شعر بدغدغة."
-    },
-    {
-      "termino": "وهكذا",
-      "explicacion": "أداة ربط ختامية تلخص أو تقدم نتيجة لما سبق.",
-      "ejemplo": "وهكذا، أصبح الديسم برم بطل القيلولة."
+      "termino": "وَكِذَا",
+      "explicacion": "رابط بيّدل على نتيجة أو عاقبة حاجة حصلت قَبْل كُدَه.",
+      "ejemplo": "وَكِذَا، الدَّيِّس الصَّغِير بْرُوم صَارْ بَطَل الْقِيلُولَة."
     }
   ],
   "verbos": [
     {
-      "termino": "كان يعشق",
-      "explicacion": "فعل يعبر عن تفضيل أو ولع قوي (من الفعل 'يعشق').",
-      "ejemplo": "كان برم يعشق الاستكشاف، والقفز على الطحالب، وعد النجوم."
+      "termino": "يَسْتَكْشِف",
+      "explicacion": "فعل معناه يَبْحَث أو يِطُوف فِي مَكَان مَش مَعْرُوف.",
+      "ejemplo": "بْرُوم كَانْ بِيحِبِّ يَسْتَكْشِف، يِنْط عَ الطَّحْلَب وِيَعُدِّ النُّجُوم."
     },
     {
-      "termino": "أعدت",
-      "explicacion": "فعل يشير إلى فعل تنظيم أو تجهيز شيء لغاية ما.",
-      "ejemplo": "أعدت الدبة الأم الكهف لقيلولة الشتاء."
+      "termino": "يِحَضِّر",
+      "explicacion": "فعل معناه يُنَظِّم أو يُعِدّ حَاجَة لِغَرَض مُعَيَّن.",
+      "ejemplo": "مَامَا دُبَّةْ حَضَّرَتِ الْكَهْف لِقِيلُولَة الشِّتَاء."
     },
     {
-      "termino": "عبس",
-      "explicacion": "فعل يصف حركة تجعيد أو تقلص شيء ما، مثل الأنف.",
-      "ejemplo": "عبس برم أنفه."
+      "termino": "يِحَضِّن",
+      "explicacion": "فعل معناه يِحُطّ إِيدِيه حَوْل حَاجَة عَلَشَان يُعَبِّر عَن حُبّ أو تَعْزِيَة.",
+      "ejemplo": "مَامَا دُبَّةْ حَضَّنَتْه."
     },
     {
-      "termino": "هرب",
-      "explicacion": "فعل متعدٍ بضمير يعني الخروج أو الذهاب من مكان دون إذن أو خلسة.",
-      "ejemplo": "في تلك الليلة، بينما كانت أمه تشخر، هرب."
+      "termino": "يِهَرِّب",
+      "explicacion": "فعل معناه يِهْرُب أو يِطْلَع مِن مَكَان بِسِرِّيَّة.",
+      "ejemplo": "تِلْك اللَّيْلَة، وِهْنْتَ أُمُّه كَانْت بِنْخَر، هَرَّب."
     },
     {
-      "termino": "أدرك",
-      "explicacion": "تعبير فعلي يعني الفهم أو الإحساس بشيء ما.",
-      "ejemplo": "أدرك أن مغامرته لم تكن ممتعة إذا كان متعبًا."
+      "termino": "يِحَسّ",
+      "explicacion": "فعل معناه يِشْعُر بِإِحْسَاسَات جِسْمِيَّة أو مَشَاعِر.",
+      "ejemplo": "حَسَّ بِتَثَاؤِبَة كَبِيرَة عَمْ تِدَغْدِغ فِي أَنْفُه."
     },
     {
-      "termino": "تحول",
-      "explicacion": "فعل متعدٍ بضمير يشير إلى تغيير أو تحول في شيء أو شخص.",
-      "ejemplo": "تحول الديسم برم إلى بطل القيلولة."
+      "termino": "يِتْعَلَّم",
+      "explicacion": "فعل معناه يِكْتَسِب مَعْرِفَة أو فَهْم مِن خِلَال التَّجْرِبَة.",
+      "ejemplo": "كَانْ قَدْ تَعَلَّم إن الْانْتِظَار السِّحْرِي لِلنَّوْم مَا أَخَذْ مِنُه حَاجَة، بَلْ أَعْطَاهُ الْقُوَّة."
     }
   ],
   "adjetivos": [
     {
-      "termino": "نابضة بالحياة",
-      "explicacion": "صفة تصف شيئًا مليئًا بالحياة، الطاقة، أو اللون الشديد.",
-      "ejemplo": "في غابة بألوان نابضة بالحياة."
+      "termino": "نَابِضَة",
+      "explicacion": "صِفَة تُوَصِّف أَلْوَان قَوِيَّة، مَلِيانَة حَيَاة وطَاقَة.",
+      "ejemplo": "كَانْ يَوْمًا مَا، فِي غَابَة أَلْوَانَهَا نَابِضَة."
     },
     {
-      "termino": "صغير",
-      "explicacion": "صفة تشير إلى حجم صغير أو عمر قليل.",
-      "ejemplo": "ديسم صغير اسمه برم."
+      "termino": "صَغِير",
+      "explicacion": "صِفَة تُشِير لِحَجْم صَغِير أو سِنّ صَغِير.",
+      "ejemplo": "دَيِّس صَغِير اِسْمُه بْرُوم."
     },
     {
-      "termino": "مرهق",
-      "explicacion": "صفة تصف حالة من التعب الشديد.",
-      "ejemplo": "جلس برم، مرهقًا."
+      "termino": "بَارِد",
+      "explicacion": "صِفَة تُوَصِّف دَرَجَة حَرَارَة مُنْخَفِضَة.",
+      "ejemplo": "لَمَّا الْخَرِيفِ صَارْ بَارِد."
     },
     {
-      "termino": "رائعة",
-      "explicacion": "صفة تصف شيئًا على أنه استثنائي، مُعجب به، أو يثير الدهشة.",
-      "ejemplo": "كانت لديه أحلام رائعة."
+      "termino": "مُتْعَب أَوِي",
+      "explicacion": "صِفَة مَعْنَاهَا تَعْبَان جِدًّا، مَفِيُوش طَاقَة.",
+      "ejemplo": "بْرُوم قَعَد، مُتْعَب أَوِي."
     },
     {
-      "termino": "منعش",
-      "explicacion": "صفة تصف شيئًا باردًا بشكل لطيف، جديدًا، أو نقيًا.",
-      "ejemplo": "كان العالم أخضرًا ومنعشًا."
+      "termino": "عَجَائِبِيَّة",
+      "explicacion": "صِفَة تُوَصِّف حَاجَة خَارِقَة للعادة، مُدْهِشَة أو مُبْهِرَة.",
+      "ejemplo": "اتْحَلْمَ أَحْلَام عَجَائِبِيَّة."
     },
     {
-      "termino": "سحري",
-      "explicacion": "صفة تشير إلى شيء مرتبط بالسحر، أو هو استثنائي وساحر.",
-      "ejemplo": "إنه انتظار سحري."
+      "termino": "نَضِيف/عَذْب",
+      "explicacion": "صِفَة تُوَصِّف حَاجَة بَارِدَة بِمُتْعَة، جَدِيدَة أو مُنْعِشَة.",
+      "ejemplo": "الْعَالَم كَانْ أَخْضَر وَنَضِيف."
     }
   ],
   "sustantivos_clave": [
     {
-      "termino": "ديسم",
-      "explicacion": "اسم يعني 'دب صغير' أو 'جرو دب'.",
-      "ejemplo": "ديسم صغير اسمه برم."
+      "termino": "غَابَة",
+      "explicacion": "مَكَان طَبِيعِي مَلِيَان شَجَر وَنَبَات، المَسْرَح الرَّئِيسِي لِلْقِصَّة.",
+      "ejemplo": "فِي غَابَة أَلْوَانَهَا نَابِضَة."
     },
     {
-      "termino": "بيات شتوي",
-      "explicacion": "اسم يطلق على حالة السبات الشتوي لبعض الحيوانات.",
-      "ejemplo": "\"حان الوقت لتستعد للبيات الشتوي.\""
+      "termino": "سُبَات شِتَوِي",
+      "explicacion": "عَمَلِيَّة نَوْم طَوِيلَة خِلَال الشِّتَاء عَشَان تِحَافِظ عَلَى الطَّاقَة.",
+      "ejemplo": "\"وْصَلْتْ وَقْت تِحَضِّر نَفْسَك لِلسُّبَات الشِّتَوِي.\""
     },
     {
-      "termino": "كهف",
-      "explicacion": "اسم يطلق على تجويف طبيعي في الصخر، يُستخدم كمأوى.",
-      "ejemplo": "أعدت الدبة الأم الكهف لقيلولة الشتاء."
+      "termino": "مُغَامَرَات",
+      "explicacion": "تَجَارِب مُثِيرَة، مُخَاطِرَة أو جَدِيدَة.",
+      "ejemplo": "حَتَحْلَم بِمُغَامَرَات الرَّبِيع."
     },
     {
-      "termino": "مغامرات",
-      "explicacion": "اسم يشير إلى تجارب مثيرة، محفوفة بالمخاطر، أو غير اعتيادية.",
-      "ejemplo": "ستحلم بمغامرات الربيع."
+      "termino": "طَاقَة",
+      "explicacion": "قُدْرَة عَلَى أَدَاء نَشَاطَات أو مُجْهَد؛ حَيَوِيَّة.",
+      "ejemplo": "الرَّاحَة هِيَ أَكْل الطَّاقَة."
     },
     {
-      "termino": "طاقة",
-      "explicacion": "اسم يعني قوة، حيوية، أو القدرة على الفعل.",
-      "ejemplo": "الراحة هي غذاء الطاقة."
+      "termino": "رَبِيع",
+      "explicacion": "فَصْل السَّنَة اللي بِيْجِي بَعْد الشِّتَاء، مَرْتَبِط بِالتَّجَدُّد وَالْحَيَوِيَّة.",
+      "ejemplo": "\"مَرْحَبًا بِيِك فِي الرَّبِيع!\""
     },
     {
-      "termino": "ربيع",
-      "explicacion": "اسم يطلق على الفصل الذي يلي الشتاء.",
-      "ejemplo": "\"مرحبًا بك في الربيع!\""
+      "termino": "أَحْلَام",
+      "explicacion": "صُوَر، أَفْكَار أو مَشَاعِر بِنِحْسَّ بِهَا وِهْنْتَ بْنِنام.",
+      "ejemplo": "عَشَان تِكُون لَك أَحْلَى مُغَامَرَات، لَازِم أَوَّل حَاجَة تِكُون لَك أَحْلَى أَحْلَام."
     }
   ],
   "expresiones_idiomaticas": [
     {
-      "termino": "عبس أنفه",
-      "explicacion": "تعبير يصف حركة تجعيد الأنف، معبرًا عن الاستياء، الشك، أو عدم الثقة.",
-      "ejemplo": "عبس برم أنفه. \"لكن، يا أمي! لا أريد أن أسبت شتويًا!\""
+      "termino": "قَبَّض أَنْفُه",
+      "explicacion": "تَعْبِير وَجْهِي بِيَدُل عَلَى عَدَم رِضَا، اعْتِرَاض أو اشْمِئْزَاز.",
+      "ejemplo": "بْرُوم قَبَّض أَنْفُه."
     },
     {
-      "termino": "دغدغ أنفه",
-      "explicacion": "تعبير يشير إلى إحساس بالدغدغة، هنا ناتج عن تثاؤب.",
-      "ejemplo": "شعر بتثاؤب كبير دغدغ أنفه."
+      "termino": "صَارْ بَارِد",
+      "explicacion": "تَعْبِير بِيَدُل عَلَى تَغْيِير فِي الْمَنَاخ نَحْو دَرَجَات حَرَارَة مُنْخَفِضَة.",
+      "ejemplo": "لَمَّا الْخَرِيفِ صَارْ بَارِد."
     },
     {
-      "termino": "بصوت ثقيل",
-      "explicacion": "تعبير يصف صوتًا غير واضح، بطيئًا، أو ثخينًا، نموذجي للتعب أو النعاس.",
-      "ejemplo": "سأل برم، بصوت ثقيل."
+      "termino": "اتْغَطَّى بِالثَّلْج",
+      "explicacion": "تَعْبِير بِيِوَصِّف إِزَّاي حَاجَة اتْغَطَّتْ كَامِلَة بِالثَّلْج.",
+      "ejemplo": "الْغَابَة اتْغَطَّتْ بِالثَّلْج."
     },
     {
-      "termino": "يومًا بعد يوم",
-      "explicacion": "تعبير يعني 'كل يوم على التوالي'، مشيرًا إلى مرور الوقت المستمر.",
-      "ejemplo": "يومًا بعد يوم، نام برم."
+      "termino": "مَلِيَان طَاقَة",
+      "explicacion": "تَعْبِير مَعْنَاهُ إنَّ عِنْدُه حَيَوِيَّة كَثِيرَة، قُوَّة أو نَشَاط.",
+      "ejemplo": "حَسَّ إنَّه قَوِي وْمَلِيَان طَاقَة أَوِي!"
     }
   ],
   "funciones_comunicativas": [
     {
-      "termino": "التعبير عن الرغبة أو التفضيل",
-      "explicacion": "وظيفة للتعبير عما يحبه المرء أو يرغب في فعله.",
-      "ejemplo": "كان برم يعشق الاستكشاف. / لا أريد أن أسبت شتويًا!"
+      "termino": "إِعْطَاء نَصَائِح أو شَرْح",
+      "explicacion": "فِعْل كَلَام مُوَجَّه لِلتَّوْجِيه، التَّوْضِيح أو تَبْرِير فِكْرَة أو حَرَكَة.",
+      "ejemplo": "\"مَاتِقْلَقْشْ يَا مُسْتَكْشِفِي الصَّغِير. السُّبَات الشِّتَوِي مَشْ مَجَرَّد نَوْم. دِه انْتِظَار سِحْرِي.\""
     },
     {
-      "termino": "تقديم النصائح أو التفسيرات",
-      "explicacion": "وظيفة لتقديم النصح، التعليم، أو توضيح سبب شيء ما.",
-      "ejemplo": "\"لا تقلق... البيات الشتوي ليس مجرد نوم. إنه انتظار سحري.\""
+      "termino": "التَّعْبِير عَن الرَّفْض أو عَدَم الْمُوَافَقَة",
+      "explicacion": "فِعْل كَلَام بِيُظْهِر مُعَارَضَة، رَفْض أو تَنَاقُض قُدَّام اقْتِرَاح.",
+      "ejemplo": "\"بَسْ يَا مَامَا! إِنْ كُنْت نَامِت، حَتَفُوتْنِي آخِر قُطَعِ الثَّلْج وِالْقَمَر! مَابْدِيش أَسْبُت!\""
     },
     {
-      "termino": "وصف الحالات الجسدية والمشاعر",
-      "explicacion": "وظيفة للتعبير عن شعور الشخص جسديًا أو نفسيًا.",
-      "ejemplo": "شعر بأنه قوي جدًا ومليء بالطاقة. / جلس برم، مرهقًا."
+      "termino": "وَصْف مَشَاعِر أو حَالَات",
+      "explicacion": "فِعْل كَلَام بِيُعَبِّر عَن إِدْرَاكَات جِسْمِيَّة، عَاطِفِيَّة أو حَالَات شَخْصِيَّة.",
+      "ejemplo": "بْرُوم قَعَد، مُتْعَب أَوِي. جِسْمُه كَانْ بِيحَسَّه ثَقِيل."
     }
   ],
   "palabras_clave": [
-    "دب",
-    "غابة",
-    "استكشاف",
-    "خريف",
-    "بارد",
-    "أم",
-    "نوم",
-    "ثلج",
-    "قمر",
-    "أحلام",
-    "متعب",
-    "قوة",
-    "راحة",
-    "نمو",
-    "ربيع",
-    "مغامرة",
-    "طاقة",
-    "انتظار",
-    "حكيم",
-    "تعلم"
+    "دُبّ",
+    "غَابَة",
+    "يَسْتَكْشِف",
+    "سُبَات شِتَوِي",
+    "نَوْم",
+    "مُغَامَرَات",
+    "رَبِيع",
+    "طَاقَة",
+    "رَاحَة",
+    "سِحْرِي",
+    "بَارِد",
+    "ثَلْج",
+    "قَمَر",
+    "نُجُوم",
+    "كَهْف",
+    "مَامَا",
+    "قُوَّة",
+    "بَطَل",
+    "قِيلُولَة",
+    "انْتِظَار"
   ],
   "narrativa": "Brum, el oso\nÉrase una vez, en un bosque de colores vibrantes, un pequeño osezno llamado Brum. A Brum le encantaba explorar, saltar sobre el musgo y contar las estrellas.\nCuando el otoño se hizo frío, Mamá Osa preparó la cueva para la siesta de invierno.\n\"Brum, cariño,\" le dijo Mamá Osa, \"es hora de que te prepares para la hibernación.\"\nBrum arrugó la nariz. \"¡Pero, Mamá! ¡Si duermo, me perderé los últimos copos de nieve y la Luna! ¡No quiero hibernar!\"\nMamá Osa lo abrazó. \"No te preocupes, mi pequeño explorador. La hibernación no es solo dormir. Es una mágica espera. Mientras duermes, tu cuerpo crecerá fuerte y soñarás con las aventuras de primavera.\"\nBrum no estaba convencido. Esa noche, mientras su madre roncaba, se escapó. Quería ver el bosque antes de que el sueño lo atrapara.\nSalió y vio la Luna brillante y las estrellas. Corrió y corrió, hasta que sintió un gran bostezo que le hizo cosquillas en la nariz. Se encontró con el Búho Sabio en un roble.\n\"¡Hola, señor Búho!\" susurró Brum. \"Usted no duerme. Yo tampoco quiero.\"\nEl Búho lo miró. \"Hoo-hoo. Yo soy nocturno, Brum. Pero hasta yo necesito siestas. El descanso es el alimento de la energía.\"\nBrum siguió caminando. Su cuerpo se sentía pesado. Luego se encontró con un pequeño Conejo.\n\"¡Hola, Conejo! ¿Por qué no duermes?\" preguntó Brum, con la voz pastosa.\nEl Conejo mordisqueó una hoja. \"Necesito mi sueño. Cuando duermo, me convierto en un Conejo-Cohete en mis sueños, y cuando despierto, puedo correr más rápido que nunca.\"\nBrum se sentó, exhausto. Se dio cuenta de que su aventura no era divertida si estaba cansado. Sus patas no querían correr y sus ojos no veían bien las estrellas. La idea de ser un \"Oso-Cohete\" en sus sueños empezó a sonar muy bien.\nRegresó a su cueva. Se acurrucó junto a Mamá Osa, sintiendo su calor. Cerró los ojos y, justo antes de dormirse, pensó: \"Voy a soñar que atrapo la Luna.\"\nDía tras día, Brum durmió. El bosque se cubrió de nieve, y él tuvo sueños maravillosos: que era un súper-héroe, que volaba y que nadaba en una piscina de miel.\nFinalmente, una mañana sintió un cosquilleo. Abrió los ojos. La cueva estaba llena de luz dorada.\n\"¡Mamá, Mamá!\" gritó.\nMamá Osa se despertó. \"¡Buenos días, mi pequeño explorador! ¡Bienvenido a primavera!\"\nBrum salió corriendo de la cueva. El mundo era verde y fresco. ¡Se sentía tan fuerte y lleno de energía! Podía correr más rápido y saltar más alto.\nHabía aprendido que la espera mágica del sueño no le quitó nada, sino que le dio la fuerza para disfrutar de todas las cosas maravillosas de la primavera.\nY así, Brum el osezno se convirtió en el campeón de las siestas, sabiendo que para tener las mejores aventuras, primero había que tener los mejores sueños."
 }
